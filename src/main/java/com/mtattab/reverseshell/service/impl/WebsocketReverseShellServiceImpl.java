@@ -13,7 +13,6 @@ import org.eclipse.jetty.websocket.api.WebSocketAdapter;
 import java.net.URI;
 @Getter
 @Setter
-
 public class WebsocketReverseShellServiceImpl extends WebSocketAdapter implements WebsocketReverseShellService {
 
 
