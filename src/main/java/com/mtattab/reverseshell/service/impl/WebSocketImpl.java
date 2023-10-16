@@ -1,7 +1,6 @@
 package com.mtattab.reverseshell.service.impl;
 
 import com.mtattab.reverseshell.model.ServerRestCommunicationModel;
-import com.mtattab.reverseshell.service.WebsocketReverseShellService;
 import com.mtattab.reverseshell.util.DataManipulationUtil;
 import com.mtattab.reverseshell.util.OSUtil;
 import lombok.Getter;
@@ -23,7 +22,7 @@ public class WebSocketImpl extends WebSocketAdapter {
 
     @Override
     public void onWebSocketText(String message) {
-        System.out.println( message);
+        log.info( message);
     }
     @Override
     public void onWebSocketConnect(Session session){
