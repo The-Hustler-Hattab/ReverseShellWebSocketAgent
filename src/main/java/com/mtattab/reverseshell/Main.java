@@ -36,7 +36,11 @@ public class Main {
 
             Future<Session> session = client.connect(socket, serverUri, new ClientUpgradeRequest());
 
-            session.get();
+
+            while (session.get().isOpen()){
+
+            }
+
             System.out.println("Connected to the WebSocket server.");
 
             // You can send messages using socket.getSession().getRemote().sendString("Your message");
