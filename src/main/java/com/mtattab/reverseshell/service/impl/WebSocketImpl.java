@@ -25,12 +25,11 @@ public class WebSocketImpl extends WebSocketAdapter {
     public void onWebSocketText(String message) {
         log.info( message);
 
-        SystemCommandProxyUtil.executeCommand(message);
+//        SystemCommandProxyUtil.executeCommand(message);
 
     }
     @Override
     public void onWebSocketConnect(Session session){
-        SystemCommandProxyUtil.detect();
         this.session= session;
         try {
 //            send initial message with computer info the command server
