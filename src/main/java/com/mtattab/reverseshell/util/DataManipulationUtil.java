@@ -14,7 +14,6 @@ public class DataManipulationUtil {
     public static <T> String convertObjToJson(T obj){
         ObjectMapper objectMapper = new ObjectMapper();
 
-
         try {
 
             return objectMapper.writeValueAsString(obj) ;
@@ -22,6 +21,16 @@ public class DataManipulationUtil {
         }catch (Exception e){
             e.printStackTrace();
             throw new RuntimeException("Exception occurred with convertObjToJson");
+        }
+    }
+
+    public static <T> T jsonToObject(String jsonString, Class<T> clazz) {
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            return objectMapper.readValue(jsonString, clazz);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
         }
     }
 

