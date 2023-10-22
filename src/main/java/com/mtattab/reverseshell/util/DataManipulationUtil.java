@@ -29,7 +29,7 @@ public class DataManipulationUtil {
         try {
             return objectMapper.readValue(jsonString, clazz);
         } catch (Exception e) {
-            e.printStackTrace();
+//            e.printStackTrace();
             return null;
         }
     }

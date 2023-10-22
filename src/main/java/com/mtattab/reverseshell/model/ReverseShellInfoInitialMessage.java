@@ -6,7 +6,7 @@ import lombok.experimental.SuperBuilder;
 
 @Data
 @SuperBuilder
-public class ServerRestCommunicationModel {
+public class ReverseShellInfoInitialMessage {
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private String osName;
@@ -28,10 +28,6 @@ public class ServerRestCommunicationModel {
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private String userLanguage;
-
-    @JsonInclude(JsonInclude.Include.NON_NULL)
-    private String userRegion;
-
 
     private String reply;
 

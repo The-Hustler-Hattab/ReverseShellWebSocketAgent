@@ -13,6 +13,7 @@ import java.util.List;
 @Builder
 @ToString
 public class ManagerCommunicationModel {
+
     @JsonProperty("masterSessionId")
     private String masterSessionId;
     @JsonProperty("msg")
