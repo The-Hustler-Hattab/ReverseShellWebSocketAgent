@@ -20,7 +20,8 @@ public class ChangeDirectoryCommand implements Command {
                     .build() ;
 
         }
-        return null;
+        return CommandRestOutput.builder().output("there is a problem with the command")
+                .build() ;
     }
 
     private String changeDirectory(String path) {

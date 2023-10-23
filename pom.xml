@@ -65,7 +65,14 @@
       <artifactId>okhttp</artifactId>
       <version>5.0.0-alpha.11</version>
     </dependency>
+    <dependency>
+      <groupId>javazoom</groupId>
+      <artifactId>jlayer</artifactId>
+      <version>1.0.1</version>
+    </dependency>
+
   </dependencies>
+
 
   <build>
 

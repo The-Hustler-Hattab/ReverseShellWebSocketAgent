@@ -13,7 +13,8 @@ public class TogglePowerShellCommand implements Command {
 
 
         }
-        return null;
+        return CommandRestOutput.builder().output("there is a problem with the command")
+                .build() ;
     }
 
     private static String togglePowerShell(String commands){

