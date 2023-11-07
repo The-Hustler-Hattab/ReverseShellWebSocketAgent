@@ -11,17 +11,15 @@ import java.util.List;
 
 public class ChangeDirectoryCommand implements Command {
     @Override
-    public CommandRestOutput executeCommand(String command) {
+    public String executeCommand(String command) {
         List<String> commands = new ArrayList<>( DataManipulationUtil.stringToList(command, " "));
 //        edge cases
         if (commands.get(0).equalsIgnoreCase("cd")){
             commands.remove(0);
-            return CommandRestOutput.builder().output(changeDirectory(String.join(" ", commands)))
-                    .build() ;
+            return changeDirectory(String.join(" ", commands)) ;
 
         }
-        return CommandRestOutput.builder().output("there is a problem with the command")
-                .build() ;
+        return "there is a problem with the command" ;
     }
 
     private String changeDirectory(String path) {

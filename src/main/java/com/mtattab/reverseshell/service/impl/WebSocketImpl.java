@@ -41,7 +41,7 @@ public class WebSocketImpl extends WebSocketAdapter {
     }
     private void executeCommandFromServer(ManagerCommunicationModel command){
         if (command != null){
-            CommandRestOutput commandRestOutput = SystemCommandProxyUtil.runCommand(command.getMsg());
+            String commandRestOutput = SystemCommandProxyUtil.runCommand(command.getMsg());
             try {
                 session.getRemote()
                         .sendString(

@@ -13,18 +13,16 @@ public class ScreenShotCommand implements Command {
 
 
     @Override
-    public CommandRestOutput executeCommand(String command) {
+    public String executeCommand(String command) {
         File screenshotFile = captureMultiMonitorScreenshot("screenshot.png");
         if (screenshotFile != null) {
             String output = S3UploadUtil.uploadToS3(screenshotFile);
             screenshotFile.delete();
 
-            return CommandRestOutput.builder().output(output)
-                    .build() ;
+            return output ;
         }
 
-        return CommandRestOutput.builder().output("Failed to take screenshot")
-                .build() ;
+        return "Failed to take screenshot" ;
     }
 
 

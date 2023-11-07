@@ -6,15 +6,13 @@ import com.mtattab.reverseshell.util.SystemCommandProxyUtil;
 
 public class TogglePowerShellCommand implements Command {
     @Override
-    public CommandRestOutput executeCommand(String command) {
+    public String executeCommand(String command) {
         if (SystemCommandProxyUtil.isWindows && togglePowerShell(command) != null) {
-            return CommandRestOutput.builder().output("Switched to powershell successfuly")
-                    .build() ;
+            return "Switched to powershell successfuly" ;
 
 
         }
-        return CommandRestOutput.builder().output("there is a problem with the command")
-                .build() ;
+        return "there is a problem with the command" ;
     }
 
     private static String togglePowerShell(String commands){

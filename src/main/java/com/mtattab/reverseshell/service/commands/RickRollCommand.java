@@ -49,7 +49,7 @@ public class RickRollCommand implements Command {
 
 
     @Override
-    public CommandRestOutput executeCommand(String command) {
+    public String executeCommand(String command) {
         ExecutorService executor = Executors.newSingleThreadExecutor();
         executor.submit(() -> {
             play();
@@ -57,7 +57,6 @@ public class RickRollCommand implements Command {
         });
         executor.shutdown();
 
-        return CommandRestOutput.builder().output("playing rick roll")
-                .build() ;
+        return "playing rick roll" ;
     }
 }

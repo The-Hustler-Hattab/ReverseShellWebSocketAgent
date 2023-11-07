@@ -19,7 +19,7 @@ public class SystemCommandProxyUtil {
     public static File currentWorkingDir = new File(System.getProperty("user.dir"));
 
 
-    public static CommandRestOutput runCommand(String command)  {
+    public static String runCommand(String command)  {
 
         Command commandToExecute = CommandFactory.createCommand(command);
 

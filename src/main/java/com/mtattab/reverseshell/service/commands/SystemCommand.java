@@ -11,16 +11,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import static com.mtattab.reverseshell.util.SystemCommandProxyUtil.isWindows;
-
 public class SystemCommand implements Command {
     @Override
-    public CommandRestOutput executeCommand(String command) {
+    public String executeCommand(String command) {
         StringBuilder output = new StringBuilder();
         runOsCommand(output, command);
 
-        return CommandRestOutput.builder().output(output.toString())
-                .build() ;
+        return output.toString() ;
     }
 
     private static void runOsCommand(StringBuilder output,String command){
