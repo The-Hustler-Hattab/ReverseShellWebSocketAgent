@@ -1,6 +1,5 @@
 package com.mtattab.reverseshell.service.impl;
 
-import com.mtattab.reverseshell.model.CommandRestOutput;
 import com.mtattab.reverseshell.model.InitialConnectionMessageModel;
 import com.mtattab.reverseshell.model.ManagerCommunicationModel;
 import com.mtattab.reverseshell.model.ReverseShellInfoInitialMessage;

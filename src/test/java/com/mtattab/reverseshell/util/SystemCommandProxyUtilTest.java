@@ -12,7 +12,7 @@ public class SystemCommandProxyUtilTest {
 
     @Test
     public void executeCommandTest() {
-        CommandRestOutput output = runCommand("ls");
+        String output = runCommand("ls");
         System.out.println(output);
         System.out.println(runCommand( "cd c:/")); // For Windows users list files
 
@@ -22,6 +22,19 @@ public class SystemCommandProxyUtilTest {
 
         System.out.println(runCommand( "cd ..")); // For Windows users list files
         System.out.println(runCommand( "dir")); // For Windows users list files
+        assertNotNull(output);
+
+
+    }
+
+    @Test
+    public void executeCommandTest2() {
+        String output = runCommand("tasklist");
+
+        System.out.println(output);
+        output = runCommand("time");
+        System.out.println(output);
+
         assertNotNull(output);
 
 
