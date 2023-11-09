@@ -15,6 +15,7 @@ import org.eclipse.jetty.websocket.api.WebSocketAdapter;
 
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 @Getter
 @Setter
@@ -40,15 +41,25 @@ public class WebSocketImpl extends WebSocketAdapter {
     }
     private void executeCommandFromServer(ManagerCommunicationModel command){
         if (command != null){
-            String commandRestOutput = SystemCommandProxyUtil.runCommand(command.getMsg());
+            String commandResponse = SystemCommandProxyUtil.runCommand(command.getMsg());
+            System.out.println(commandResponse.length());
             try {
-                session.getRemote()
-                        .sendString(
-                                DataManipulationUtil.convertObjToJson(commandRestOutput)
-                        );
+                sendMessageInPatches(commandResponse,8000);
+
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
+        }
+    }
+    private void sendMessageInPatches(String commandResponse , int length ) throws IOException {
+        ArrayList<String> wordsBatch = DataManipulationUtil.splitString(commandResponse,length);
+
+        for (String batch : wordsBatch) {
+            session.getRemote()
+                    .sendString(
+                            batch
+                    );
         }
     }
     @Override

@@ -6,7 +6,7 @@
 
   <groupId>com.mtattab.reverseshell</groupId>
   <artifactId>reverseShell</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <name>reverseShell</name>
 
@@ -73,6 +73,13 @@
 
   </dependencies>
 
+  <distributionManagement>
+    <repository>
+      <id>central</id>
+      <name>a0qgpownipjhx-artifactory-primary-0-releases</name>
+      <url>https://mhattab.jfrog.io/artifactory/libs-release</url>
+    </repository>
+  </distributionManagement>
 
   <build>
 

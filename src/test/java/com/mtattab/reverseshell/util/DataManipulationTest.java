@@ -6,6 +6,8 @@ import com.mtattab.reverseshell.model.CommandRestOutput;
 import com.mtattab.reverseshell.model.ManagerCommunicationModel;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertNotNull;
 
 public class DataManipulationTest {
@@ -17,5 +19,29 @@ public class DataManipulationTest {
         ManagerCommunicationModel managerCommunicationModel= DataManipulationUtil.jsonToObject(jsonObj, ManagerCommunicationModel.class);
 
         System.out.println(managerCommunicationModel);
+    }
+
+    @Test
+    public void getFirstNCharactersTest()  {
+
+
+        String word = DataManipulationUtil.getFirstNCharacters("hello", 6);
+
+        System.out.println(word);
+    }
+
+
+    @Test
+    public void splitStringTest()  {
+
+
+        ArrayList<String> words = DataManipulationUtil.splitString("hello", 2);
+
+        System.out.println(words);
+
+         words = DataManipulationUtil.splitString("hello", 10);
+
+        System.out.println(words);
+
     }
 }

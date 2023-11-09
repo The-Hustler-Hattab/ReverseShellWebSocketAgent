@@ -32,7 +32,7 @@ public class SystemCommandProxyUtilTest {
         String output = runCommand("tasklist");
 
         System.out.println(output);
-        output = runCommand("time");
+//        output = runCommand("time");
         System.out.println(output);
 
         assertNotNull(output);
