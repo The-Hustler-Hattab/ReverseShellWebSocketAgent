@@ -37,7 +37,7 @@ public class HelpCommand implements Command {
         helpCommandArrayList.add(HelpCommand.builder().commandName("upload")
                         .description("upload files to s3 bucket")
                         .requiredParams("filePath")
-                        .example("upload file.txt")
+                        .example("upload <file>")
                 .build());
         helpCommandArrayList.add(HelpCommand.builder().commandName("rick-roll")
                 .description("play rick roll music")
@@ -49,10 +49,20 @@ public class HelpCommand implements Command {
                 .requiredParams("NA")
                 .example("screenshot")
                 .build());
+        helpCommandArrayList.add(HelpCommand.builder().commandName("camera-shot")
+                .description("take camera shoot of all available camera")
+                .requiredParams("NA")
+                .example("camera-shot")
+                .build());
         helpCommandArrayList.add(HelpCommand.builder().commandName("powershell")
                 .description("switch to powershell mode [Windows-only]")
                 .requiredParams("NA")
                 .example("powershell")
+                .build());
+        helpCommandArrayList.add(HelpCommand.builder().commandName("/exit")
+                .description("Terminate shell")
+                .requiredParams("NA")
+                .example("/exit")
                 .build());
 
         return helpCommandArrayList.toString();

