@@ -11,15 +11,12 @@ import org.opencv.videoio.VideoCapture;
 
 import javax.swing.*;
 
-import java.awt.image.BufferedImage;
-import java.awt.image.DataBufferByte;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import org.bytedeco.opencv.global.opencv_core;
 
 public class CameraScreenShotCommand extends JFrame implements Command   {
     static {

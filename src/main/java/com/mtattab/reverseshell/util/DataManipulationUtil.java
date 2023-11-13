@@ -69,4 +69,32 @@ public class DataManipulationUtil {
         return result;
     }
 
+    public static String removeFirstCharacter(String input) {
+        // Check if the string is not empty and has more than one character
+        if (input != null && input.length() > 1) {
+            return input.substring(1);
+        } else {
+            // Return the original string if it is empty or has only one character
+            return input;
+        }
+    }
+    public static String removeFirstLines(String input, int linesToRemove) {
+        if (input == null || input.isEmpty()) {
+            // Return the original string if it is null or empty
+            return input;
+        }
+
+        // Split the string into lines
+        String[] lines = input.split("\\r?\\n");
+
+        // Check if there are at least 4 lines
+        if (lines.length > linesToRemove) {
+            // Join the remaining lines starting from the 5th line
+            return String.join(System.lineSeparator(), Arrays.copyOfRange(lines, linesToRemove, lines.length));
+        } else {
+            // Return an empty string if there are fewer than 4 lines
+            return "";
+        }
+    }
+
 }

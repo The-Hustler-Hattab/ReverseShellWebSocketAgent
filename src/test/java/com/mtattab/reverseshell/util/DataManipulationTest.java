@@ -44,4 +44,20 @@ public class DataManipulationTest {
         System.out.println(words);
 
     }
+    @Test
+    public void removeFirstCharacterTest()  {
+
+
+        System.out.println( DataManipulationUtil.removeFirstCharacter("hello"));
+
+    }
+
+    @Test
+    public void removeFirstLinesTest()  {
+
+
+        System.out.println( DataManipulationUtil.removeFirstLines("hello\nhello\nhello world", 2 ));
+
+    }
+
 }

@@ -29,6 +29,9 @@ public class ReverseShellInfoInitialMessage {
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private String userLanguage;
 
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private String userPublicIp;
+
     private String reply;
 
 
