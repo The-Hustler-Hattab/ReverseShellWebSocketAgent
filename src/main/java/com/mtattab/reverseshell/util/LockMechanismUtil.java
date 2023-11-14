@@ -26,7 +26,7 @@ public class LockMechanismUtil {
 
         try {
 //            check if the lock file changes within the last 15 seconds
-            if (!checkFileChanges( 3, 1)){
+            if (!checkFileChanges( 10, 1)){
                 startLock();
             }else {
                 System.out.println("lock file is changing. Process is alive. Exiting...");

