@@ -21,6 +21,9 @@ public interface Constants {
 
     public static final String PERSISTENCE_WINDOWS_TASK = "UpdateWindowsSystemTask";
 
+    public static final String LOCK_FILE_NAME = "93803181808-lock";
+
+
 
 
 }

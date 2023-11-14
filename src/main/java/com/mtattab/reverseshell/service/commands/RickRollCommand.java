@@ -27,8 +27,6 @@ public class RickRollCommand implements Command {
                 return;
             }
 
-            Bitstream bitstream = new Bitstream(inputStream);
-
             player = new AdvancedPlayer(inputStream);
 
             new Thread(() -> {

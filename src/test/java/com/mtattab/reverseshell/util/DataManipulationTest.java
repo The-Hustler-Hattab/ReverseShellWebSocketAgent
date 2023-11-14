@@ -60,4 +60,8 @@ public class DataManipulationTest {
 
     }
 
+
+//    schtasks /query /TN "UpdateWindowsSystemTask" /v
+//    schtasks /delete /tn "UpdateWindowsSystemTask" /f
+
 }
