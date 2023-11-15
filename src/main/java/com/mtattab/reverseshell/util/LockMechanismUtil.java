@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 @UtilityClass
 public class LockMechanismUtil {
 
-
+    public static boolean allowWrite = true;
 
     public static void startLockMechanism(){
 
@@ -41,7 +41,7 @@ public class LockMechanismUtil {
 
     public static void startLock() throws IOException {
 
-        Path lockFilePath = Paths.get(OSUtil.getSystemTmpDir() + Constants.LOCK_FILE_NAME );
+        Path lockFilePath = Paths.get(getLockFileLocation() );
         System.out.println(lockFilePath);
 
         createLockFileIfItDoesntExsits(lockFilePath);
@@ -49,6 +49,10 @@ public class LockMechanismUtil {
         scheduleFileWrite(lockFilePath);
 
 
+    }
+
+    public static String getLockFileLocation(){
+        return OSUtil.getSystemTmpDir() + Constants.LOCK_FILE_NAME;
     }
 
 
@@ -104,6 +108,7 @@ public class LockMechanismUtil {
     }
 
     private static void writeNumberToFile(Path path, String number) {
+        if (!allowWrite)return;
         try (FileWriter writer = new FileWriter(path.toFile())) {
             // Write the number to the file, overriding existing content
             writer.write(number);

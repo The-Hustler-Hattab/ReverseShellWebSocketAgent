@@ -7,6 +7,8 @@ import lombok.extern.java.Log;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 @UtilityClass
 @Log
@@ -96,5 +98,16 @@ public class DataManipulationUtil {
             return "";
         }
     }
+    public static String extractByRegex(String content, String regex) {
+        Pattern pattern = Pattern.compile(regex);
+        Matcher matcher = pattern.matcher(content);
+
+        if (matcher.find()) {
+            return matcher.group(1);
+        } else {
+            return null; // Return null if no match is found
+        }
+    }
+
 
 }

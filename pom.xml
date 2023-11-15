@@ -6,7 +6,7 @@
 
   <groupId>com.mtattab.reverseshell</groupId>
   <artifactId>reverseShell</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 
   <name>reverseShell</name>
 
@@ -165,6 +165,27 @@
             </execution>
           </executions>
         </plugin>
+
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <version>3.3.0</version>
+          <executions>
+            <execution>
+              <phase>install</phase>
+              <id>create-zip</id>
+              <goals>
+                <goal>single</goal>
+              </goals>
+              <configuration>
+                <descriptors>
+                  <descriptor>zip.xml</descriptor>
+                </descriptors>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+
 
 
       </plugins>

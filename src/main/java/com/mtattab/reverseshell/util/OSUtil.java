@@ -5,11 +5,14 @@ import com.mtattab.reverseshell.model.PublicIpJsonModel;
 import com.mtattab.reverseshell.model.ReverseShellInfoInitialMessage;
 import lombok.experimental.UtilityClass;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.file.Path;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.zip.ZipEntry;
+import java.util.zip.ZipInputStream;
 
 @UtilityClass
 public class OSUtil {
@@ -71,6 +74,95 @@ public class OSUtil {
         }
     }
 
+    public static void createDirectories(String path) {
+        File directory = new File(path);
+
+        // Check if the directory doesn't exist
+        if (!directory.exists()) {
+            // Attempt to create the directory and its parent directories if necessary
+            boolean success = directory.mkdirs();
+
+            if (success) {
+                System.out.println("Directories created: " + path);
+            } else {
+                System.out.println("Failed to create directories: " + path);
+                throw new RuntimeException("Directory not created.");
+            }
+        } else {
+            System.out.println("Directories already exist: " + path);
+        }
+    }
+
+    public static void runFunctionInThread(Runnable myFunction) {
+        // Create an ExecutorService with a single thread
+        ExecutorService executorService = Executors.newSingleThreadExecutor();
+
+        // Submit the Runnable to the executor service
+        executorService.submit(myFunction);
+
+        // Shutdown the executor service when done
+        executorService.shutdown();
+    }
+
+    public static void sleep(long milliSeconds){
+        try {
+            Thread.sleep(milliSeconds);
+
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public static Path unzip(String zipFilePath, String destDirectory) throws IOException {
+        try (ZipInputStream zipInputStream = new ZipInputStream(new FileInputStream(zipFilePath))) {
+            // Create the destination directory if it doesn't exist
+            File destDir = new File(destDirectory);
+            if (!destDir.exists()) {
+                destDir.mkdirs();
+            }
+
+            // Counter for tracking the number of files in the ZIP archive
+            int fileCount = 0;
+
+            // Read entries from the ZIP file
+            ZipEntry zipEntry;
+
+            String entryPath="";
+            while ((zipEntry = zipInputStream.getNextEntry()) != null) {
+                // Increment the file count
+                fileCount++;
+
+                // Create the entry's destination file
+                entryPath = destDirectory + File.separator + zipEntry.getName();
+                File entryFile = new File(entryPath);
+
+                // Create parent directories if they don't exist
+                if (!entryFile.getParentFile().exists()) {
+                    entryFile.getParentFile().mkdirs();
+                }
+
+                // Extract the entry
+                try (FileOutputStream fileOutputStream = new FileOutputStream(entryFile)) {
+                    byte[] buffer = new byte[1024];
+                    int length;
+                    while ((length = zipInputStream.read(buffer)) > 0) {
+                        fileOutputStream.write(buffer, 0, length);
+                    }
+                }
+            }
+
+            // Check if there is exactly one file in the ZIP archive
+            if (fileCount != 1) {
+                throw new IOException("Expected one file in the ZIP archive, found: " + fileCount);
+            }
+
+            System.out.println("Unzip completed successfully.");
+            return Path.of(entryPath);
+        } catch (IOException e) {
+            System.err.println("Failed to unzip the file: " + zipFilePath);
+            throw e; // Rethrow the exception to indicate the failure
+        }
+    }
 
 
 

