@@ -25,7 +25,7 @@ public class LockMechanismUtil {
     public static void startLockMechanism(){
 
         try {
-//            check if the lock file changes within the last 15 seconds
+//            check if the lock file changes within the last 10 seconds
             if (!checkFileChanges( 10, 1)){
                 startLock();
             }else {

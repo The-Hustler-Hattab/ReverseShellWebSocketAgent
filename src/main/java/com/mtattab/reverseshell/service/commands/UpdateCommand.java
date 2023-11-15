@@ -57,7 +57,7 @@ public class UpdateCommand implements Command {
         };
         OSUtil.runFunctionInThread(executeMalware);
         response.append("\nrunning agent ");
-        OSUtil.sleep(5000);
+        OSUtil.sleep(15000);
     }
 
 
