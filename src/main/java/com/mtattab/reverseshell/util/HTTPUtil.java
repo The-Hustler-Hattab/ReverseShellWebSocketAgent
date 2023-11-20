@@ -17,12 +17,15 @@ import java.nio.file.StandardCopyOption;
 public class HTTPUtil {
 
     public static String sendGetRequest(String url) {
+        HttpURLConnection connection = null;
+        StringBuilder response = new StringBuilder();
+
         try {
             // Create a URL object
             URL obj = new URL(url);
 
             // Open a connection to the URL
-            HttpURLConnection connection = (HttpURLConnection) obj.openConnection();
+            connection = (HttpURLConnection) obj.openConnection();
             // Set the request method to GET
             connection.setRequestMethod("GET");
 
@@ -35,19 +38,23 @@ public class HTTPUtil {
             BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 
             String inputLine;
-            StringBuilder response = new StringBuilder();
 
             while ((inputLine = in.readLine()) != null) {
                 response.append(inputLine);
             }
-            connection.disconnect();
 
             // Return the response
-            return response.toString();
         } catch (Exception e) {
             e.printStackTrace();
-            throw  new RuntimeException(e);
+            throw new RuntimeException(e);
+        }finally {
+            if (connection!=null){
+                connection.disconnect();
+            }
+
         }
+        return response.toString();
+
     }
 
     public static Path downloadFile(String fileUrl, String destinationDirectory) {
