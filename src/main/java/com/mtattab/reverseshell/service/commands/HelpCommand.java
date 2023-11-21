@@ -59,6 +59,11 @@ public class HelpCommand implements Command {
                 .requiredParams("NA")
                 .example("/update-malware")
                 .build());
+        helpCommandArrayList.add(HelpCommand.builder().commandName("/tcp-connect")
+                .description("connect to target machine using tcp unsecured socket")
+                .requiredParams("ip and port ")
+                .example("/tcp-connect 127.0.0.1 443")
+                .build());
         helpCommandArrayList.add(HelpCommand.builder().commandName("powershell")
                 .description("switch to powershell mode [Windows-only]")
                 .requiredParams("NA")
