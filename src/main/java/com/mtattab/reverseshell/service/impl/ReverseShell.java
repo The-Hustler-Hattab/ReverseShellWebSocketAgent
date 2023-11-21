@@ -53,6 +53,7 @@ public class ReverseShell implements WebsocketReverseShellService {
 
         } catch (Exception e) {
             e.printStackTrace();
+
         } finally {
             try {
                 client.stop();

