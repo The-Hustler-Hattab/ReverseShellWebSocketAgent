@@ -8,6 +8,6 @@ import lombok.experimental.SuperBuilder;
 public class CommandRestOutput {
 
     String output;
-
+    String uuid;
 
 }
