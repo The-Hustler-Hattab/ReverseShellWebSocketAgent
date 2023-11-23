@@ -15,7 +15,7 @@ public class UpdateCommand implements Command {
         PersistMalware persistMalware = new PersistMalware();
         StringBuilder response = new StringBuilder();
         try {
-            String agentURI = getLatestAgentUri();
+            String agentURI = Constants.UPDATED_MALWARE_URL;
             String newAgentDirectory = OSUtil.getSystemTmpDir()+Constants.NEW_AGENT_DIRECTORY;
 //            System.out.println(agentURI);
             response.append("latest agent url: ").append(agentURI);
@@ -61,7 +61,10 @@ public class UpdateCommand implements Command {
     }
 
 
-
+/*
+*  JFROG ACCESS GOT CANCELED
+* */
+    @Deprecated
     private static String getLatestAgentUri(){
         String agentMetaDataFile = HTTPUtil.sendGetRequest(Constants.JFROG_BASE_URL+Constants.JFROG_META_DATA_FILE);
         String latestVersion = DataManipulationUtil.extractByRegex(agentMetaDataFile.toLowerCase(),Constants.JFROG_LATEST_REGEX);
