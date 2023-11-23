@@ -3,7 +3,6 @@ env:
   variables:
     CACHE_CONTROL: "86400"
     S3_BUCKET: "{{S3_BUCKET}}"
-    BUILD_FOLDER: "dist"
 phases:
   install:
     runtime-versions:
@@ -20,5 +19,5 @@ phases:
       - echo Build started on `date`
 artifacts:
   files:
-    - '*'
-  base-directory: 'target/*'
+    - ./target/*
+  discard-paths: yes
