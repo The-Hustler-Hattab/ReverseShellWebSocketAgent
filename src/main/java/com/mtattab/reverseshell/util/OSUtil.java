@@ -164,6 +164,14 @@ public class OSUtil {
         }
     }
 
+    public static File createDirectoryInTmpFolder(String dir){
+        String powerShellDirectory = OSUtil.getSystemTmpDir()+ dir;
+        OSUtil.createDirectories(powerShellDirectory);
+
+        return new File(powerShellDirectory);
+
+    }
+
 
 
 }

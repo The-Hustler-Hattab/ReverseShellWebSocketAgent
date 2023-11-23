@@ -1,9 +1,8 @@
 package com.mtattab.reverseshell.service.commands;
 
-import com.mtattab.reverseshell.model.CommandRestOutput;
 import com.mtattab.reverseshell.service.Command;
 import com.mtattab.reverseshell.util.DataManipulationUtil;
-import com.mtattab.reverseshell.util.SystemCommandProxyUtil;
+import com.mtattab.reverseshell.util.SystemCommandUtil;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -22,17 +21,17 @@ public class ChangeDirectoryCommand implements Command {
         return "there is a problem with the command" ;
     }
 
-    private String changeDirectory(String path) {
-        File relativeDirectory = new File(SystemCommandProxyUtil.currentWorkingDir, path);
+    public static String changeDirectory(String path) {
+        File relativeDirectory = new File(SystemCommandUtil.currentWorkingDir, path);
         File absoluteDirectory = new File(path);
 
 
         if (relativeDirectory.exists() && relativeDirectory.isDirectory()) {
-            SystemCommandProxyUtil.currentWorkingDir = relativeDirectory;
-            return "Directory changed successfuly";
+            SystemCommandUtil.currentWorkingDir = relativeDirectory;
+            return "Directory changed successfully";
         } else if (absoluteDirectory.exists() && absoluteDirectory.isDirectory()) {
-            SystemCommandProxyUtil.currentWorkingDir = absoluteDirectory;
-            return "Directory changed successfuly";
+            SystemCommandUtil.currentWorkingDir = absoluteDirectory;
+            return "Directory changed successfully";
         } else {
 
             return "Directory not found: " + path;

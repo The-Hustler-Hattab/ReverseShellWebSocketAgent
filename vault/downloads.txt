@@ -1,0 +1,267 @@
+https://discord.com/download	C:\Users\moham\Downloads\DiscordSetup.exe
+https://store.steampowered.com/about/	C:\Users\moham\Downloads\SteamSetup.exe
+https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi	C:\Users\moham\Downloads\EpicInstaller-14.2.1.msi
+https://www.oracle.com/java/technologies/downloads/#jdk17-windows	C:\Users\moham\Downloads\jdk-17_windows-x64_bin.msi
+https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows&code=IIC	C:\Users\moham\Downloads\ideaIC-2022.3.1.exe
+https://code.visualstudio.com/docs/?dv=win	C:\Users\moham\Downloads\VSCodeUserSetup-x64-1.74.2.exe
+https://www.virtualbox.org/wiki/Downloads	C:\Users\moham\Downloads\VirtualBox-7.0.4-154605-Win.exe
+https://www.virtualbox.org/wiki/Downloads	C:\Users\moham\Downloads\Oracle_VM_VirtualBox_Extension_Pack-7.0.4.vbox-extpack
+https://sourceforge.net/projects/osboxes/files/v/vb/40-P-rt/5.0/64bit.7z/download?use_mirror=gigenet&download=&failedmirror=phoenixnap.dl.sourceforge.net	F:\Downloads\64bit.7z
+https://www.7-zip.org/	F:\Downloads\7z2201-x64.exe
+https://git-scm.com/download/win	F:\Downloads\Git-2.39.0.2-64-bit.exe
+https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/	F:\Downloads\MSEdge.Win10.VirtualBox.zip
+https://www.utorrent.com/downloads/complete/track/stable/os/win/	F:\Downloads\utorrent_installer.exe
+https://slack.com/downloads/instructions/windows	F:\Downloads\SlackSetup.exe
+https://digitalu.udemy.com/course/spring-springboot-jpa-hibernate-zero-to-master/learn/lecture/30780118?start=375#overview	F:\Downloads\Spring.pdf
+https://github.com/eazybytes/spring	F:\Downloads\spring-main.zip
+https://desktop.op.gg/download/latest	F:\Downloads\OP.GG+Setup+1.1.3.exe
+https://iperms.hrc.army.mil/#/soldierRecord/	F:\Downloads\dd214.pdf
+https://www.google.com/search?q=mesomorph&rlz=1C1UEAD_enUS1037US1037&oq=mesomorph&aqs=chrome..69i57.235553j0j7&sourceid=chrome&ie=UTF-8#imgrc=ok8AcbSnCGEf-M	F:\Downloads\AdobeStock_451159483-1-scaled.webp
+https://www.google.com/search?rlz=1C1UEAD_enUS1037US1037&sxsrf=ALiCzsabefB3bdCYX06s3FNrZZ560XrG6g:1672092363902&source=univ&tbm=isch&q=mesomorph&fir=qvT8CJSf9gw1bM%252CaIGdgGVkMxSicM%252C_%253Bok8AcbSnCGEf-M%252CvfzehnXQeI1vJM%252C_%253BCoQXIqTldcDNgM%252CBvVEFvckaM3cCM%252C_%253BHKYAHVFAEHJciM%252CRtbw61RkAPjjoM%252C_%253BOy6ku_M19rmbGM%252CBIC70cVQE3xofM%252C_%253BbUNIPjzbz9LXdM%252ClwRF9Gp66mdT7M%252C_%253BIDq3dbC_CAAu8M%252CARJ_n3yZo3ygaM%252C_%253BLnZeEjOHQ_sBGM%252CbgcP_edpWtTdRM%252C_%253BMFQFJxLEy8PtdM%252C3kQqdORwxlfXFM%252C_%253Bhz96Gk24zlh_xM%252ChkHcNNGNebDzSM%252C_%253BFk--rI0ooXKFuM%252CybMwWVPjgLkrsM%252C_%253B88DsdPAgFfD7ZM%252CARJ_n3yZo3ygaM%252C_%253BWrycAy1dXJi2eM%252CIUnO2W1z1y1UzM%252C_%253Bvu7YuauZKwLnzM%252CvfzehnXQeI1vJM%252C_&usg=AI4_-kTlbkxOd4jGfDk4GZIwEpE_kJYfmQ&sa=X&ved=2ahUKEwiy6Ya7pZj8AhXrmHIEHaASA_oQ7Al6BAgJEGA&biw=2048&bih=1002&dpr=1.25#imgrc=TitnCEOGwfeqUM	F:\Downloads\bodytype-lkp.webp
+https://www.google.com/search?rlz=1C1UEAD_enUS1037US1037&sxsrf=ALiCzsabefB3bdCYX06s3FNrZZ560XrG6g:1672092363902&source=univ&tbm=isch&q=mesomorph&fir=qvT8CJSf9gw1bM%252CaIGdgGVkMxSicM%252C_%253Bok8AcbSnCGEf-M%252CvfzehnXQeI1vJM%252C_%253BCoQXIqTldcDNgM%252CBvVEFvckaM3cCM%252C_%253BHKYAHVFAEHJciM%252CRtbw61RkAPjjoM%252C_%253BOy6ku_M19rmbGM%252CBIC70cVQE3xofM%252C_%253BbUNIPjzbz9LXdM%252ClwRF9Gp66mdT7M%252C_%253BIDq3dbC_CAAu8M%252CARJ_n3yZo3ygaM%252C_%253BLnZeEjOHQ_sBGM%252CbgcP_edpWtTdRM%252C_%253BMFQFJxLEy8PtdM%252C3kQqdORwxlfXFM%252C_%253Bhz96Gk24zlh_xM%252ChkHcNNGNebDzSM%252C_%253BFk--rI0ooXKFuM%252CybMwWVPjgLkrsM%252C_%253B88DsdPAgFfD7ZM%252CARJ_n3yZo3ygaM%252C_%253BWrycAy1dXJi2eM%252CIUnO2W1z1y1UzM%252C_%253Bvu7YuauZKwLnzM%252CvfzehnXQeI1vJM%252C_&usg=AI4_-kTlbkxOd4jGfDk4GZIwEpE_kJYfmQ&sa=X&ved=2ahUKEwiy6Ya7pZj8AhXrmHIEHaASA_oQ7Al6BAgJEGA&biw=2048&bih=1002&dpr=1.25#imgrc=KSqIy4xRtLOYAM	F:\Downloads\hqdefault.jpg
+https://github.com/sqlectron/sqlectron-gui/releases/tag/v1.38.0	F:\Downloads\sqlectron-Setup-1.38.0.exe
+https://democreator.wondershare.com/audio-editor/voice-changer-for-discord.html?gclid=CjwKCAiA2L-dBhACEiwAu8Q9YAtpoDyhCCns1-KmFZq3vScobBgSzVcOtqOAq8WPJ78qxsghWexkphoC79AQAvD_BwE	F:\Downloads\democreator_setup_full7743.exe
+https://www.nchsoftware.com/voicechanger/index.html	F:\Downloads\VoxalVoiceChanger.exe
+https://www.kali.org/get-kali/#kali-virtual-machines	F:\Downloads\kali-linux-2022.4-virtualbox-amd64.7z
+https://start.spring.io/	F:\Downloads\demo.zip
+https://github.com/fabioformosa/quartz-manager	F:\Downloads\quartz-manager-master.zip
+https://www.postman.com/downloads/	F:\Downloads\Postman-win64-Setup.exe
+https://start.spring.io/	C:\Users\moham\OneDrive\Desktop\java-demos\swagger.zip
+https://start.spring.io/	C:\Users\moham\OneDrive\Desktop\java-demos\swagger2.zip
+https://start.spring.io/	C:\Users\moham\OneDrive\Desktop\java-demos\JpaCreater.zip
+https://stock.adobe.com/images/set-of-round-flat-icons-with-men-vector/97356000	C:\Users\moham\OneDrive\Desktop\java-demos\people_icon.jpg
+https://www.linkedin.com/messaging/thread/2-ZjYyZWJmMzMtMjZkYi00NjFjLTlkMDEtN2YzYTViZGJlMTE1XzAxMA==/	C:\Users\moham\OneDrive\Desktop\java-demos\Cisco - Security DevOps.docx
+https://desktop.op.gg/download/latest	C:\Users\moham\OneDrive\Desktop\java-demos\OP.GG+Setup+1.1.11.exe
+https://download.overwolf.com/install/Download?PartnerId=3776&ExtensionId=pibhbkkgefgheeglaeemkkfjlhidhcedalapdggh&utm_source=porofessor-website&utm_medium=download-button&utm_campaign=download-button	C:\Users\moham\OneDrive\Desktop\java-demos\Porofessor.gg - Installer.exe
+https://docs.docker.com/desktop/install/windows-install/	F:\Downloads\Docker Desktop Installer.exe
+https://github.com/rslim087a/spring-boot-bootcamp-resources	F:\Downloads\spring-boot-bootcamp-resources-main.zip
+https://github.com/darbyluv2code/spring-boot-unit-testing	F:\Downloads\spring-boot-unit-testing-main.zip
+https://digitalu.udemy.com/course/spring-boot-unit-testing/learn/lecture/29740418#overview	F:\Downloads\spring-boot-unit-testing-pdfs.zip
+https://www.linkedin.com/feed/	F:\Downloads\YearUpGraduation.jpg
+https://mypay.dfas.mil/#/reserve/w2	C:\Users\moham\OneDrive\Desktop\tax\w2Army.pdf
+https://mail.google.com/mail/u/0/#sent/FMfcgzGrcPHMWXdwBWCZdrGkmWGsjksr	C:\Users\moham\OneDrive\Desktop\tax\wwts_w2_2022.pdf
+https://hcm.paycor.com/PayrollReportService/download/v1/reports/3/718be6d5-2194-43ee-b6a9-3dd181939b72	C:\Users\moham\OneDrive\Desktop\tax\yearupW2.pdf
+https://hcm.paycor.com/ACAConnectService/api/Documents/Employees/4ae6e258-bb83-ec11-a507-2818781ec283/bafa13c5-6b93-ed11-9d7a-000d3a62e758/448e566f-d90d-ed11-bd6e-281878a99fb4	C:\Users\moham\OneDrive\Desktop\tax\1095-CYearup.pdf
+https://www.tsc1099.com/UI/ClientHome.aspx	C:\Users\moham\OneDrive\Desktop\tax\11641-438748-0-2022-2023-01-28-05-20-34-839.pdf
+https://tax.crypto.com/report	C:\Users\moham\OneDrive\Desktop\tax\transactions_report_2022.xlsx
+https://voice.ai/app-download	F:\Downloads\Voice.ai-Downloader-alphaver-985be92f3f0a48dd825de6d038a207e9.exe
+https://voice.ai/app-download/08R3o	F:\Downloads\Voice.ai-Downloader-08R3o-985be92f3f0a48dd825de6d038a207e9.exe
+https://github.com/darbyluv2code/spring-boot-unit-testing	F:\Downloads\spring-boot-unit-testing-main (1).zip
+https://digitalu.udemy.com/course/spring-security-zero-to-master/learn/lecture/34300604#overview	F:\Downloads\Spring+Security+Zero+to+Master+along+with+JWT,OAUTH2.pdf
+https://github.com/eazybytes/springsecurity6	F:\Downloads\springsecurity6-main.zip
+https://nodejs.org/en/download/	F:\Downloads\node-v18.14.0-x64.msi
+https://github.com/NewToKali/ReverseShellExcel/blob/main/reverseshell.xlsm	F:\Downloads\reverseshell.xlsm
+https://maven.apache.org/download.cgi	E:\maven\apache-maven-3.9.0-bin.zip
+https://digitalu.udemy.com/course/plsql-by-example/learn/lecture/3236540#overview	F:\Downloads\Oracle+database+URL.txt
+https://drive.google.com/drive/folders/1fjwroJ7qFdPV5_lEJYHorGjZoSYwIC5F	F:\Downloads\OracleXE112_Win64.zip
+https://att-c.udemycdn.com/2015-07-12_16-15-26-39469c3667fd1fe19ff426c0638bf2dc/2fe81ba3-93fb-4cf2-8afc-e1fda46857c5.pdf?response-content-disposition=attachment%3B+filename%3DWelcome%2Bto%2Bthe%2BPLSQL%2Bby%2BExample.pdf&Expires=1676775212&Signature=H7ZqLPzLGNcDaYJ0V1X0c9FFa~CALlRUpqBkYC2R0XuC9PH~2IuF69Hga16f9Oj4e8yCjk6RwQIUhcEm9tOnCAwXPc2PSgbWIuO8fgdsJdww7zEogw6IkhdBWFnDtaK8jM6wb8WNngthkijbF1664E21aVUgQ4er~d0aMilO2p6gbxCslNSDgitXnHgxpw4GihcyaCidA~BAM-rMaXbyJRZg5BkfrK0uTgh3kis-a5-wQ9xIIfh1JMw6MPfS-m2FFe9H6a5Ehc1gxS4Tsd2Ct7XTBsdLl5rBvJPE9DbeNBhtAi-ESDnO8Q7zUz~3DuFLaPDt-2J4bQj-5V0~IeLpQA__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\Welcome+to+the+PLSQL+by+Example.pdf
+https://login.oracle.com/mysso/signon.jsp	F:\Downloads\sqldeveloper-22.2.1.234.1810-x64.zip
+https://digitalu.udemy.com/course/plsql-by-example/learn/lecture/3251844#overview	F:\Downloads\CREATE+USER+SCRIPTS.txt
+https://att-c.udemycdn.com/2015-07-12_16-06-58-9ffceb9ee5b9dcaddfe6c94aefc809b3/0070b735-b591-428f-b6eb-d93997b01531.pdf?response-content-disposition=attachment%3B+filename%3DScripts.pdf&Expires=1676776655&Signature=AVEqrTCrLLBFNgCua3Ee32ZmWl98ZeNQDjGA3o8wGLJu9DkBbU9C3YyP-kaYHTGvkBHdCQTOy7HZH3OxkEoQOFQrotcY~A1rMW950jQlPtSow7wIrKKe-oRCpCw6~aamtD-QmJ~bu8VCYrzVYv3cx7XW9LB6fa1-cKa6hDgIRQRVTrbXKpLTYodQs5SVcAuGkB2XNjYsrZozc7ZOwQJvDYuSIpkd9YWSH10PFR4Zp-ve4GTNgpHScU195F~Jd3EkLo-o95QIaRnFUW2otObbyqEYca0B2dTCq5iD7QEo-vrHGYnqmYr8R0oZ7tNrd0o0MhslOjh7XG9uIln7QJIFVA__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\Scripts.pdf
+https://att-c.udemycdn.com/2016-03-17_20-30-40-b1d532ccab9b0bc36f87e5e4667e6e9e/9e2e16e3-7cb4-4a87-9a48-d55ea5eb1636.pdf?response-content-disposition=attachment%3B+filename%3DPLSQL%2BExercise%2B1.pdf&Expires=1676792931&Signature=lzh808tpEgM4~xGUNeuHcqTct3zxlj8JAzsBurEamY20ZyT6GgBZP0tmbpaFV4zC34EcvPrH~FwmweYxadZYAXn1lD~lQOfjkqB1a6rWrCGzHs7aqSBaQKF~cDUg1PHqXTsQfphTpVEPfnBnz2DY6W9SfDoJRvc4T~wSnPoa4mQu3LTSuyPwGf9n2fqSRYPNo7GDXD2Oj0FbUOv9CXGVQQRzOKaPpOuFwahzZVv0AMhIVoxdPG48cJ17d22wWaePNWDgjvkR6pMsotOL5ShMm2a-O~rOa~R6pZSROb7fFatVaD120JOm840cCR4I~2t9lquHNUA421YuV35L3l1~dw__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\PLSQL+Exercise+1.pdf
+https://att-c.udemycdn.com/2016-03-17_20-30-50-001ebcdc22209b2aab8bab6ea2f64ccd/56dc77a9-ae84-4d8a-a5e6-2f09ebe7d781.pdf?response-content-disposition=attachment%3B+filename%3DPLSQL%2BExercise%2B2.pdf&Expires=1676869787&Signature=lYnEb8FdyZsFIW1kmQMIWCTXXXEhSKpEc7mvGLAcmXksOGufVsQ4jBWW1dZZbX-h8~kZiphQEnt7ERrOFDkhsWvzTWZl4m-2UxszEthYoG4CZc5WqgM9NO1YNpnx55EB3rcAwYIEUV49Us~KGzHyjPH~QHubmIebMaiq~ytejugNE2e4gJ0uJ71v1tCvdmgzdHP6jOdgay1TwbeIzRWB5gOKTLs5XONoXWBE3YgPNG9vkcDrZMoSneN43d0ve9iLXoyVRxLKvSGzz6PxNqd03e49OkDmx89K0b6lgvKCKZZc7p9yRXdGZHRdU~jupQ-I9SnwMYdHgMhqFjsgNzQn9A__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\PLSQL+Exercise+2.pdf
+https://att-c.udemycdn.com/2016-03-17_20-31-03-fe55c6b474179d3fd3a50e9f2225b43a/e6dd1263-95a1-432a-ba90-f65f026c3468.pdf?response-content-disposition=attachment%3B+filename%3DPLSQL%2BExercise%2B3.pdf&Expires=1676877235&Signature=WfJv7CPKsZ8mZLYkpqziv9SUwVFcmmA52qA8nSrG1-HSbtB6l0Vwn34y4vvVzcYbyiEn4qWxNYlDaMQlkonE9dzkmqw6oJLKop-MEi2ckSmHCjgqZYL5OmIBNeyJOdm2Zw9bgVxsj~kmpf50zKeuAAZ8-Q-pGPwSTj4bj2tylVykN5ZdtQoiBgCJJDRwXA7RSjDXCaPPi8VvLWVgjIxiX3pAEwQmge~X77Oz03AsLneooL4bCAXOpMBSojC6E8Rus261x~854lciHjsAd4YquPmU4OoFnJ1w8iG507WwHcReSkSJfCKkkbZhww1OdqHlYgYTNisz5vI8CG766rX8Bg__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\PLSQL+Exercise+3.pdf
+https://att-c.udemycdn.com/2015-07-06_14-12-40-c32a56f182d6b098be524bd885b9727d/9c72a0d7-c363-4da0-bfbf-f732b65dbfbd.pdf?response-content-disposition=attachment%3B+filename%3DConclusion.pdf&Expires=1676878087&Signature=Ngf~~XpZdFKT6nR8JiHl9-0hNtdleHVqigw92kIZ-P9UOP3MmwMRAn1WwF0TRjmGwWiBQ54r6mPaeFtpX0ns5aBsM63gtN08qNWnR3Ou1Jb-9~moEFyZshL2oyuE157tnpMWm1JlEDVf9QHAHyKSlug9dglosvZF8dUGo0-W2vxHab8fUcaTRFXKYKLi~XOVPYI4tstTfnpGzvoItpfqEfuGpylWTNfCeHlGllBWWqIHCaqyOvlxNcMoGGp-8NR3vrP2e68weRfe1O0UZ9ypsvtNmGKLmjyW2Hf1J61TXw4OxwYYDXpKSUiK8RujR9GP4AsowYMfQX9BT~tcwzpVjA__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\Conclusion.pdf
+https://att-c.udemycdn.com/2015-07-05_08-58-02-6dd148b4f1c171c49a2dcd8ae4d5d6d7/9999991b-5f42-466d-88e7-707d448c9cba.pdf?response-content-disposition=attachment%3B+filename%3DPredefined%2BExceptions.pdf&Expires=1676953604&Signature=QBnTf4GxJJ1zZeutLkCJlXqm-v88ZxKsJOd1GAy1R9WgxA4PsupjemonrvPijO-934Kw6GWcfxG3sDkLhO8YvbJ7kFLW6ifHo5o48fXdEFC1C6Z4kqXTz2iqlDlkAZ5zlVuOJb4RlBgcvhTArEVSp5AKUgcA3RAWjAd~KSdp8Ubj9DX3eh3YXUttx0LQ-KmaK3L0WqG8MsHFCLI9ebYdlAuncNpUykKD~skgzjxbMe0EDVw5scdHt86yaxnY67JrFwMpQ8faOWjjEiT-WCbWv9Hqf-iqgYlM97nb~kRVqR5y~~uFw4rqktxPro7eBH89N3yZs50SO2mNX9C~XO6Wuw__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\Predefined+Exceptions.pdf
+https://att-c.udemycdn.com/2016-03-17_20-31-12-0813bdea3e740f68082d352eaa351c60/62ba7c68-d09c-4347-8726-50e1c183e59f.pdf?response-content-disposition=attachment%3B+filename%3DPLSQL%2BExercise%2B4.pdf&Expires=1676954440&Signature=ItW4yyGSx1n9hIzKJFLLM8rTieer9UttnvYJVx14AjExwFugVXB6VSDqySAn5NELyQiSYrDTNHB3KNg3~22jhnU524Oo0DPDtdKtqh3hSdb6dCJXxwkUJgIfnfhsxCWh~vgUEt1pnF4ypEDOJ8dCXkl3RVUu3O4YZw8eHaL9~toa7GLay9Y81hTK3MjhDySh2FJ3X7Jyi~BDqZZ10Y9Hp4ssw8LrsD7rSNvH8flAyo~AjqUaW7wgDQqxRkgx0Lhoc8b4PQ-WstLBXITqW6aPX40a0TSf-hQBxxAZM6V3cfe3rF5C6kcPa5Jhoi-V9W~mKRewQ7qpsoE6ajbCSg7uYA__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\PLSQL+Exercise+4.pdf
+https://att-c.udemycdn.com/2016-03-17_20-31-22-d2fd7cf88c5d8a489d4055a89aca58ed/c5607150-04d4-4842-9c7a-393bb1de1709.pdf?response-content-disposition=attachment%3B+filename%3DPLSQL%2BExercise%2B5.pdf&Expires=1676956867&Signature=THcfuTUF~zrCba8nJbLX1UssbWysDDEamJjl3wJNSJD3L7f6H4MDKlts~7I1lgb7g7rKVJhN~8c~0TuSfN7G18CPCm1PCo4~8ROpOI1VHdiT0RYOK5r51Ypt3hqyRRjgh1C9unqzk~jpnoN2a5vudIpY8bvsJoLFoO~Qv4675rRFsWMwa-~J1pU9g7Fe6VRQW1Hc76RIYnbka4oVO6Ud6WqaHMoV2gCU3t-ZKilzBS7-26GFeoABgLiSCN5~ggkfeOiaB0dV2Wga6DVqJ0mIYOfRYZFc34NOn9G7FUEB3N8SbV7zms7-nXvYPFlGhbNmpdRMLM8jkRa8t9tGBXE-Mg__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\PLSQL+Exercise+5.pdf
+https://att-c.udemycdn.com/2016-03-17_20-31-31-a08a8b8b207d921f98baff2a3fb3be90/d8c8410f-3754-4414-a8ee-d30db5c2658c.pdf?response-content-disposition=attachment%3B+filename%3DPLSQL%2BExercise%2B6.pdf&Expires=1676959887&Signature=EakaVsvx53Rmeh-huHPxBHEQZEFrPe--u9IxTB8COOqxPppCTLjoCPc0Q3nQJlX0H7B9Fl2gMNASSQemN6xfgju-8IQi4kAJF9eJ58Fj9TZX8W77KdRxgX1SP45uGnucT96MsE71xYzG8PRRpI1jhVPqFDC5qanOtaFXIddjhJ68M8rhZ~dZduu32PbR~q7iKkHRh~f4M5sEn8G2znnLjvSum-kcfONncv9W4tMA8D49y0WDK-DYn-1yRfDgFlulPBxbelRXpArq7j5IZ9jI7~mbAcmH0AqOtniYXSm5ZVjVXtXcLI4R9gWVkKgpvdehWioo7iPSbCMtYNXd2XvOcQ__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\PLSQL+Exercise+6.pdf
+https://att-c.udemycdn.com/2016-03-17_20-31-40-2cf0b5e7309b5292274927b5c67e437c/05a0f7f0-81ad-40f6-8b37-28b14630e85d.pdf?response-content-disposition=attachment%3B+filename%3DPLSQL%2BExercise%2B7.pdf&Expires=1677134260&Signature=jDlitqOPjmSbrsAwnklwZKRbVquUaQi3juufIs74mshBhvZx59LL86gbKbmoVyKlgXFqMNsmaislumR4y6r0JYO03WACbKOILjRZPqlZT8cGCX-Jx~RlfJTQi3xE0geZX2sax7g-Egr2-YCIojwucfG~OW0jO-7Mxbp49waakomClUD2R5pSyttYazpj-P1q9FxIMdanJeTokSOIUR2BC-GB5PiCaWkdIhdCiyayaL3CyD2H2OK2BJSLzVRKurkxjTm1ESKcc4ksPtyaeZnboT9Rhr2WRYMLK-CaSU31ki8RajwBDsIKdrKg83vxSoN8nbNTT0jUuUQ4arc~TEervw__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\PLSQL+Exercise+7.pdf
+https://att-c.udemycdn.com/2016-03-17_20-31-50-94eb7d32e96a4258393ef6b93c2adb25/3589531b-43cb-4359-a172-182b36478dc6.pdf?response-content-disposition=attachment%3B+filename%3DPLSQL%2BExercise%2B8.pdf&Expires=1677221331&Signature=D-EHwXyHGCErqRDtfhdMENQfqS-riWMRmWjuqELTpCgIHZ7IiDexxhlQcSVaM~1caLh4XEUpBsiCP74ejrFIoRTwwQYEfw04SzI-1mZWDo8AY6oS~BNuRV0spmhfErz2cXFb2TH8ocM3Wl9UycCWnQC6FfL0wUfKfHzLd3-cZ6ZtbJlOE8iIlbgL2jcadfqwkb1VN9oMynPF1x19LeFkA6YmZcqxDm5v6TxObgGUyYLMXmBQ28DcLYyxAOO7gTeg2zEmShre3l~Sdvr6Q~nN7g4FEH37UUTC3RwUo~gIH~ezt7afgNGFAa2zI584LQgDTrptu0alG2SB1cdA2j5fGw__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\PLSQL+Exercise+8.pdf
+https://att-c.udemycdn.com/2016-01-11_00-41-57-14befba5811ffe00926bb2efa6dffa39/1dafefa1-0c75-40ad-9283-5f93b2ac91b6.pdf?response-content-disposition=attachment%3B+filename%3DScripts%2Bfor%2BTriggers.pdf&Expires=1677473940&Signature=LWc2T9HcMl4~xooVA-uXRywxFTwArnqaX4RfMOb6ihglI-wm3d7NNwHiz4S4Z3o-3hrkN7A9IFRrJH~6MNIcjgzE84Ced092NOEKM9Maok2x37zFoHMLkLpY8sJxiMrX9W-8KTv854SFl0kB~2F6~25m8cydTuyHNk1nOdeXrJNHmwbA5mzftUZzK0~7hcRCaTpRBSicyP2NYdg7maEqVC9YwLtw1kA-WvXvMRWkrhGNvd61-slNKM8a7UJhhr3oh3R9sLkRXoiiPKdgaCqLP3hvSKXKAVEZ5QpHhb6kjhEVevWIYs1-VyoNy0DcQ6w52whf~4Oe-LQiPP1x52O-qw__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\Scripts+for+Triggers.pdf
+https://att-c.udemycdn.com/2016-01-11_01-15-49-3f505f1883c3bb7d86580f7730f520ca/91c39c4c-92f6-4f10-8e96-23b40f3ced53.pdf?response-content-disposition=attachment%3B+filename%3DEnable%2BDisable%2Ba%2BTrigger.pdf&Expires=1677478202&Signature=JELIz2sigH1d~TYSbtyArIE2UljpO3clvo4dZxhSXAF~A8eHYTFi43cvDnU6r2busGc9BA-jopzvcSAmPHA-wh~q872GJgB~qWwjYxBPJz7vLm0IxPRXQweDFvlatOXlPj1tFFWeApa4gTBxV0ACeeLBT~cJLgiY0PLVTbOuNPXs7cKmWOxuIvru7SVEVwEoq7rtpSh9UNr8hdV3E6GuNvEYla5XNWnKOhEiS-Nxt7HUpdQrDIBsUxRchDGtUY6WslJiNdXM~fGJNTtErB2T8l~PgsyE9wv2MntjFuMsZ4bGDJDP0UwSBwmx1V0cE7VDkPcJcjTCEfCOsI5RKrE52w__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\Enable+Disable+a+Trigger.pdf
+https://att-c.udemycdn.com/2015-07-06_14-12-40-c32a56f182d6b098be524bd885b9727d/9c72a0d7-c363-4da0-bfbf-f732b65dbfbd.pdf?response-content-disposition=attachment%3B+filename%3DConclusion.pdf&Expires=1677820965&Signature=g4fR9Tjec-0mwxiRsen2XUFMMOl2IOeNquBM5w-wVLREYJTx0vXHcWlYxq6~in9eavnbeVZmG4tUB-3tFNYn4HLPc0p0LPhypQJzaEORWoivwGP2xf36ELSB7SuN8CahdhBG1lbIPfG39lQJskQMr0l8sjmk5xF~s4AIvRx7EaDdMvphDagWndT8B1hbYEAOTbUyCZ~JlPmABfV2TOucP7LZ-yNGzssrtHxLa-JNyFfrjbp2Kq85Udx2950Q2-1H4gKFgg5YN9MkZ-dYTVg903jamJ~2HWM7MSYaoHZ1gNBry2HBVSpFozmrLmqSZhG4ZAGfnbjD232PQfdzhxuu0Q__&Key-Pair-Id=APKAITJV77WS5ZT7262A	F:\Downloads\Conclusion (1).pdf
+https://jmeter.apache.org/download_jmeter.cgi	F:\Downloads\apache-jmeter-5.5.zip
+https://digitalu.udemy.com/course/learn-jmeter-from-scratch-performance-load-testing-tool/learn/lecture/8237592#overview	F:\Downloads\jmeter.docx
+chrome-extension://mbopgmdnpcbohhpnfglgohlbhfongabi/_generated_background_page.html	F:\Downloads\demo.jmx
+https://github.com/keycloak/keycloak/releases/download/21.0.1/keycloak-21.0.1.zip	F:\Downloads\keycloak-21.0.1.zip
+https://docs.docker.com/desktop/install/windows-install/	F:\Downloads\Docker Desktop Installer (1).exe
+https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package	F:\Downloads\wsl_update_x64.msi
+https://digitalu.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/learn/lecture/6597692#overview	F:\Downloads\DJANGO_COURSE_1.xx.zip
+https://sourceforge.net/projects/atom.mirror/files/latest/download	F:\Downloads\AtomSetup-x64.exe
+https://www.google.com/search?rlz=1C1UEAD_enUS1037US1037&sxsrf=APwXEdfC8PCOtztOMZCg_2rDE2oV3kBgxQ:1679702661438&q=chad&tbm=isch&sa=X&ved=2ahUKEwjY_NmD5PX9AhX8EFkFHQpVAuYQ0pQJegQICxAB&biw=1862&bih=910&dpr=1.38#imgrc=7s56jjglMAmdbM	F:\Downloads\chad.jpg
+file:///F:/Downloads/BSCISADegree.pdf	F:\Downloads\BSCISADegree.pdf
+https://digitalu.udemy.com/course/postman-api-automation-testing-with-javascript/learn/lecture/26910352#overview	F:\Downloads\LibraryAPI+(1).docx
+https://digitalu.udemy.com/course/data-structures-and-algorithms-java/learn/lecture/30006312#overview	F:\Downloads\Visual_Studio_Code_Dark_Plus.jar
+https://www.anaconda.com/products/distribution	F:\Downloads\Anaconda3-2023.03-Windows-x86_64.exe
+https://www.google.com/search?rlz=1C1UEAD_enUS1037US1037&sxsrf=APwXEddNLx2yQazaFEfYxb9eaYRsMXSGHw:1680920440336&q=pic&tbm=isch&sa=X&ved=2ahUKEwj2p_fNnJn-AhVoMVkFHQCNAl8Q0pQJegQIBxAB&biw=1862&bih=910&dpr=1.38	F:\Downloads\download.jfif
+https://www.google.com/search?q=png+download&rlz=1C1UEAD_enUS1037US1037&oq=png+download&aqs=chrome..69i57.2644j0j7&sourceid=chrome&ie=UTF-8	F:\Downloads\download.png
+https://cdn.discordapp.com/attachments/1003312698064375820/1094337728155496556/AWS_ODAY_CV.pdf	F:\Downloads\AWS_ODAY_CV.pdf
+https://www.facebook.com/messenger_media?attachment_id=3050371921924773&message_id=mid.%24cAAAB8KtWVwyNk8rdBGHYoWIeJh0c&thread_id=100075660769646	F:\Downloads\339324487_3050371925258106_691323783676303773_n.jpg
+https://web.whatsapp.com/	F:\Downloads\Aws Oday.doc
+https://www.arduino.cc/en/donate/	F:\Downloads\arduino-ide_nightly-20230403_Windows_64bit.zip
+https://github.com/digistump/DigistumpArduino/releases/download/1.6.7/Digistump.Drivers.zip	F:\Downloads\Digistump.Drivers.zip
+https://github.com/james-willett/rest-assured-fundamentals	F:\Downloads\rest-assured-fundamentals-main.zip
+https://www.arduino.cc/en/donate/	F:\Downloads\arduino-ide_nightly-20230415_Windows_64bit.zip
+https://github.com/eazybytes/microservices-with-spring-sectionwise-code	F:\Downloads\microservices-with-spring-sectionwise-code-master.zip
+https://www.linkedin.com/feed/	F:\Downloads\windowsCheatSheatjfif.jfif
+https://upmcjobs.taleo.net/careersection/careersection/candidateacquisition/flow.jsf	F:\Downloads\Resume (1).pdf
+https://upmcjobs.taleo.net/careersection/careersection/candidateacquisition/flow.jsf	F:\Downloads\WGU_Unofficial_Transcript-mh.pdf
+https://docs.google.com/document/d/15KqtUy7CmEOgayKVvB4C1kE5Y4Zy0RJbVrGS_ZW0rTA/edit	F:\Downloads\Offensive Cyber Cover Letter.pdf
+https://openvpn.net/client/client-connect-vpn-for-windows/	F:\Downloads\openvpn-connect-3.3.7.2979_signed.msi
+https://tryhackme.com/access	F:\Downloads\HattabtheHacker.ovpn
+https://www.avast.com/en-us/lp-ppc-aone-vpn?full_trSrc=mmm_aon_tst_006_989_e&gad=1&gclid=CjwKCAjwscGjBhAXEiwAswQqNM-j47CzAcd9tg7yl0gDzhrch64zxC9v0DMCORCGju6aDDs7XHYIaBoCTC8QAvD_BwE&gclsrc=aw.ds#pc	F:\Downloads\avast_one_free_vpn.exe
+https://tryhackme.com/room/solar	F:\Downloads\solrlogs.zip
+https://www.freepik.com/premium-vector/opened-envelope-document-with-green-check-mark-line-icon-official-confirmation-message-mail-sent-successfully-email-delivery-verification-email-flat-design-vector_30209971.htm	F:\Downloads\opened-envelope-document-with-green-check-mark-line-icon-official-confirmation-message-mail-sent-successfully-email-delivery-verification-email-flat-design-vector_662353-720.avif
+https://upmcjobs.taleo.net/careersection/careersection/candidateacquisition/flow.jsf	F:\Downloads\Resume (2).pdf
+https://cmu.wd5.myworkdayjobs.com/SEI/download/assets/n1713815070?fileName=CMU+SEI+PGE+Form.pdf	F:\Downloads\CMU+SEI+PGE+Form.pdf
+https://docs.google.com/document/d/1KtXPBiq82IIgTQrvESqYVdZv16_cws0VM31eX6c1dhw/edit	F:\Downloads\Problem.pdf
+https://docs.google.com/document/d/1a8pBMby85WEla6RhTGeTpVhhTuXKqpj2FXLHsHPESTo/edit	C:\Users\moham\OneDrive\Desktop\USCIS Contact Attempts\Action_Taken.pdf
+https://mail.google.com/mail/u/0/#sent?projector=1	C:\Users\moham\OneDrive\Desktop\USCIS Contact Attempts\Release_2.pdf
+https://mail.google.com/mail/u/0/#sent?projector=1	C:\Users\moham\OneDrive\Desktop\USCIS Contact Attempts\Release_1.pdf
+https://github.com/NewToKali/Hangman-Trojan	C:\Users\moham\Downloads\Hangman-Trojan-main.zip
+https://links.datacumulus.com/developer-code-k92?_gl=1*1djftm9*_ga*MTUzOTM5NzE0My4xNjg1ODI2NDU2*_ga_6GZZTGGX7H*MTY4NTgyNjQ1Ni4xLjEuMTY4NTgyNjU1NS41Ni4wLjA.	F:\Downloads\code_v2023-04-07.zip
+https://media.datacumulus.com/aws-dva/AWS%20Certified%20Developer%20Slides%20v18.pdf?_gl=1*8jct7j*_ga*MTUzOTM5NzE0My4xNjg1ODI2NDU2*_ga_6GZZTGGX7H*MTY4NTgyNjQ1Ni4xLjEuMTY4NTgyNjU1NS41Ni4wLjA.	F:\Downloads\AWS Certified Developer Slides v18.pdf
+https://mail.google.com/mail/u/0/#search/drill+scheduled/FMfcgzGqPpjZcbgmhSwHMfcnSVbKZLSD?projector=1&messagePartId=0.1	C:\Users\moham\OneDrive\Desktop\USCIS Contact Attempts\uscis Expedate request\TY 23 Drill Schedule.pdf
+https://docs.google.com/document/d/13dsTRLy9kWdnN3VNBNgkaYwL8bYIWRoRyqAyuGoDbAI/edit	C:\Users\moham\OneDrive\Desktop\USCIS Contact Attempts\uscis Expedate request\USCIS Letter.pdf
+https://my.uscis.gov/account/applicant	C:\Users\moham\OneDrive\Desktop\USCIS Contact Attempts\uscis Expedate request\Interview Scheduled.pdf
+https://www.dice.com/dashboard/profiles/099ba70802506fab5f2c0c47c581047e	C:\Users\moham\OneDrive\Desktop\USCIS Contact Attempts\uscis Expedate request\Resume (2).pdf
+https://docs.google.com/document/d/1TF9RtCVIpBmeA5ACpZT5w4gyXTIKAhM-GcSwyztKKp8/edit#heading=h.4qr5ba5jcsde	C:\Users\moham\OneDrive\Desktop\USCIS Contact Attempts\uscis Expedate request\Resume.pdf
+https://www.torproject.org/dist/torbrowser/12.5/torbrowser-install-win64-12.5_ALL.exe	F:\Downloads\torbrowser-install-win64-12.5_ALL.exe
+https://portswigger.net/burp/releases/professional-community-2023-7-2	F:\Downloads\burpsuite_community_windows-x64_v2023_7_2.exe
+https://start.spring.io/	F:\Downloads\Selenium.zip
+https://www.mozilla.org/en-US/firefox/download/thanks/	F:\Downloads\Firefox Installer.exe
+https://github.com/mozilla/geckodriver/releases	F:\Downloads\geckodriver-v0.33.0-win64.zip
+https://digitalu.udemy.com/course/the-complete-guide-to-angular-2/learn/practice/266/introduction#overview	F:\Downloads\angular_learning\basics-assignment-1-start.zip
+https://www.linkedin.com/in/mohammed-hattab-295076216/	F:\Downloads\Profile.pdf
+https://www.linkedin.com/in/mohammed-hattab-295076216/	F:\Downloads\1624662811656.jpg
+https://us-east-2.console.aws.amazon.com/ec2/home?region=us-east-2#LaunchInstances:	F:\Downloads\openVPN_ec2.pem
+https://18.189.178.42:943/?src=connect	F:\Downloads\openvpn-connect-3.3.6.2752_signed.msi
+https://mail.google.com/mail/u/0/#inbox/FMfcgzGtwglBBLtGsJSdmPsBtzrmDxNw	F:\Downloads\haider.jpg
+https://obsproject.com/welcome	F:\Downloads\OBS-Studio-29.1.3-Full-Installer-x64.exe
+https://mail.google.com/mail/u/0/#inbox/FMfcgzGtwglBBLtZWVMjpWfHvqKFFgjx	F:\Downloads\haider_verify.jpeg
+https://us-east-2.console.aws.amazon.com/ec2/home?region=us-east-2#LaunchInstances:	F:\Downloads\latestKali.ppk
+https://3.17.80.64:943/?src=connect	F:\Downloads\profile-3.ovpn
+https://yale.money/?a=orders	F:\Downloads\all.txt
+https://3.21.159.189:943/?src=connect	F:\Downloads\profile-4.ovpn
+https://digitalu.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6656036#overview	F:\Downloads\prj-basics-final.zip
+https://digitalu.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6656060#overview	F:\Downloads\angular_learning\cmp-databinding-start.zip
+https://drive.google.com/drive/folders/1jcctivv1VZ3_m5NWsgTTuZpi-74qsp9N	F:\Downloads\Transcript_MohammedHattab.pdf
+https://drive.google.com/drive/folders/1jcctivv1VZ3_m5NWsgTTuZpi-74qsp9N	F:\Downloads\dd214 (1).pdf
+https://docs.google.com/document/d/1TF9RtCVIpBmeA5ACpZT5w4gyXTIKAhM-GcSwyztKKp8/edit#heading=h.77au8ruvbfxl	F:\Downloads\Resume (3).pdf
+https://www.certmetrics.com/amazon/candidate/requirements.aspx	F:\Downloads\AWS Certified Cloud Practitioner (retiring Sept 18, 2023).pdf
+https://takeout.google.com/settings/takeout/downloads?pli=1&rapt=AEjHL4OsZiRszxJdT5c1i11l5sZGLFQLykWcCaj3jxh4FXr7Audz3PflOpkqZJds7K1zIkcwFkMPqbhTj0xhm7Xe7GSHuUJjtA	F:\Downloads\takeout-20230826T195718Z-001.zip
+https://www.linkedin.com/in/bryannewport/	F:\Downloads\Profile (1).pdf
+https://www.certmetrics.com/amazon/candidate/requirements.aspx	F:\Downloads\AWS Certified Developer - Associate.pdf
+https://digitalu.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6656136#overview	F:\Downloads\prj-cmp-databinding-final.zip
+https://start.spring.io/	C:\Users\moham\OneDrive\Desktop\github\Spring_SMTP_REST\email-service.zip
+https://dev.mysql.com/downloads/file/?id=519997	F:\Downloads\mysql-workbench-community-8.0.34-winx64.msi
+https://us-east-2.console.aws.amazon.com/elasticbeanstalk/home?region=us-east-2#/application/versions?applicationName=Spring	F:\Downloads\ppH5i6L.zip
+https://docs.google.com/document/d/1TF9RtCVIpBmeA5ACpZT5w4gyXTIKAhM-GcSwyztKKp8/edit#heading=h.77au8ruvbfxl	F:\Downloads\Resume (4).pdf
+https://us-east-2.console.aws.amazon.com/s3/object/codepipeline-us-east-2-612754283199?region=us-east-2&prefix=Spring-Deploy%2FBuildArtif%2FyO1kfHf&tab=details	F:\Downloads\yO1kfHf.zip
+https://us-east-2.console.aws.amazon.com/s3/object/codepipeline-us-east-2-612754283199?region=us-east-2&prefix=Spring-Deploy/BuildArtif/Gbp4TnE	F:\Downloads\Gbp4TnE.zip
+https://us-east-2.console.aws.amazon.com/s3/object/codepipeline-us-east-2-612754283199?region=us-east-2&prefix=Spring-Deploy/BuildArtif/9ak4prj	F:\Downloads\9ak4prj.zip
+https://digitalu.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6656164#overview	F:\Downloads\angular_learning\directives-start.zip
+https://digitalu.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6656208#overview	F:\Downloads\angular_learning\services-start.zip
+https://digitalu.udemy.com/course/the-complete-guide-to-angular-2/learn/practice/274/introduction#questions	F:\Downloads\angular_learning\services-assignment-start.zip
+https://digitalu.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6656234#overview	F:\Downloads\angular_learning\prj-services-final.zip
+https://docs.google.com/document/d/1TF9RtCVIpBmeA5ACpZT5w4gyXTIKAhM-GcSwyztKKp8/edit	F:\Downloads\Resume.pdf
+https://digitalu.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6656272#overview	F:\Downloads\angular_learning\arduino-ide_nightly-20230415_Windows_64bit.zip
+https://upmcjobs.taleo.net/careersection/careersection/candidateacquisition/flow.jsf	F:\Downloads\angular_learning\Resume.pdf
+https://upmcjobs.taleo.net/careersection/careersection/candidateacquisition/flow.jsf	F:\Downloads\angular_learning\Cover+letter.pdf
+https://digitalu.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6656302#overview	F:\Downloads\angular_learning\routing-final.zip
+https://start.spring.io/	C:\Users\moham\OneDrive\Desktop\github\demo.zip
+https://docs.google.com/document/d/1TF9RtCVIpBmeA5ACpZT5w4gyXTIKAhM-GcSwyztKKp8/edit	F:\Downloads\Resume.pdf
+https://my.uscis.gov/account/applicant	F:\Downloads\Oath Ceremony Scheduled.pdf
+https://docs.google.com/document/d/1TF9RtCVIpBmeA5ACpZT5w4gyXTIKAhM-GcSwyztKKp8/edit#heading=h.77au8ruvbfxl	F:\Downloads\Resume (5).pdf
+https://drive.google.com/drive/my-drive	F:\Downloads\naturalization certificate.pdf
+https://www.cia.gov/ehl/form	F:\Downloads\myLinkExportedData-2023-09-22-07-10-00.json
+https://www.cia.gov/ehl/form	F:\Downloads\MyLINK-trackingnumber.txt
+https://www.cia.gov/ehl/form	F:\Downloads\myLinkExportedData-2023-09-22-07-11-07.json
+https://docs.google.com/document/d/1p3L0_NRpcGVmB10lbh7jxg2v_S3cg0v_zhuI0hsaOj4/edit	F:\Downloads\JP Morgan.pdf
+https://github.com/aws/aws-sam-cli/releases/latest/download/AWS_SAM_CLI_64_PY3.msi	F:\Downloads\AWS_SAM_CLI_64_PY3.msi
+https://aws.amazon.com/cli/	F:\Downloads\AWSCLIV2.msi
+https://digitalu.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6656376#questions	F:\Downloads\angular_learning\prj-routing-final.zip
+https://github.com/codingmarket07/Instagram-Login-Page	F:\github\Instagram-Login-Page-master.zip
+https://github.com/keanu19970228/facebook_login_page	F:\github\facebook_login_page-main.zip
+https://github.com/YehudaEi/Google-Fake-Login-Page	F:\github\Google-Fake-Login-Page-master.zip
+https://digitalu.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/14466290#overview	F:\Downloads\angular_learning\obs-01-start.zip
+https://digitalu.udemy.com/course/the-complete-guide-to-angular-2/learn/lecture/6656460#overview	F:\Downloads\angular_learning\forms-td-start.zip
+https://digitalu.udemy.com/course/the-complete-guide-to-angular-2/learn/practice/276/introduction#overview	F:\Downloads\angular_learning\forms-td-assignment-start.zip
+https://start.spring.io/	F:\github\c2cServer.zip
+https://docs.google.com/document/d/1TF9RtCVIpBmeA5ACpZT5w4gyXTIKAhM-GcSwyztKKp8/edit#heading=h.77au8ruvbfxl	C:\Users\moham\Downloads\Resume.pdf
+https://mypay.dfas.mil/#/reserve/les	C:\Users\moham\Downloads\les.pdf
+https://github.com/The-Hustler-Hattab/Hangman-Trojan	C:\Users\moham\Downloads\Hangman-Trojan-main (1).zip
+https://docs.google.com/document/d/1YyR776fMD4g1Hn0ggWIUtRixYlZoxrryTld0BppIkMg/edit	C:\Users\moham\Downloads\Person Vue Developer Cert.pdf
+https://docs.google.com/document/d/1YyR776fMD4g1Hn0ggWIUtRixYlZoxrryTld0BppIkMg/edit	C:\Users\moham\Downloads\Person Vue DevNet Cert.pdf
+https://docs.google.com/document/d/1YyR776fMD4g1Hn0ggWIUtRixYlZoxrryTld0BppIkMg/edit	C:\Users\moham\Downloads\Person Vue  AI Fundamentals Cert.pdf
+https://s3.console.aws.amazon.com/s3/object/c2c-server-files?region=us-east-2&prefix=1697764330095-Resume.pdf	C:\Users\moham\Downloads\1697764330095-Resume.pdf
+https://www.jetbrains.com/edu-products/download/other-IIE.html	C:\Users\moham\Downloads\ideaIE-2022.2.2.exe
+https://s3.console.aws.amazon.com/s3/object/c2c-server-files?region=us-east-2&prefix=28764ee7-4374-d2ab-b15b-0460390b7e94/2023-10-21_18-13-F%3A%5Cgithub%5CWebsocket-ReverseShell-Agent%5Cpom.xml	C:\Users\moham\Downloads\2023-10-21_18-13-F__github_Websocket-ReverseShell-Agent_pom.xml
+https://127.0.0.1:8070/swagger-ui/index.html#/s-3-controller/getS3File	C:\Users\moham\Downloads\1697764330095-Resume (1).pdf
+https://s3.console.aws.amazon.com/s3/object/c2c-server-files?region=us-east-2&prefix=f9c476e8-ace9-5330-c742-332e1cf6b915/2023-10-22_18-14-pom.xml	C:\Users\moham\Downloads\2023-10-22_18-14-pom.xml
+https://s3.console.aws.amazon.com/s3/object/c2c-server-files?region=us-east-2&prefix=7e6accad-169c-4eb3-953c-82170f8bdcd0/2023-10-22_21-12-pom.xml	C:\Users\moham\Downloads\2023-10-22_21-12-pom.xml
+https://s3.console.aws.amazon.com/s3/object/c2c-server-files?region=us-east-2&prefix=4723c56a-9aca-fc35-6f36-1bb468ee1915/2023-10-23_19-12-screenshot.png	C:\Users\moham\Downloads\2023-10-23_19-12-screenshot.png
+https://s3.console.aws.amazon.com/s3/object/c2c-server-files?region=us-east-2&prefix=4723c56a-9aca-fc35-6f36-1bb468ee1915/2023-10-23_19-12-pom.xml	C:\Users\moham\Downloads\2023-10-23_19-12-pom.xml
+https://www.myinstants.com/en/instant/rick-roll-2/	C:\Users\moham\Downloads\rickroll_4.mp3
+https://www.myinstants.com/en/instant/rick-roll-bass-boosted-77772/?utm_source=copy&utm_medium=share	C:\Users\moham\Downloads\rick-roll-bass-boosted_ZPqkNIT.mp3
+https://127.0.0.1:8070/swagger-ui/index.html#/s-3-controller/getS3File	C:\Users\moham\Downloads\2023-10-24_19-11-screenshot.png
+https://fonts.google.com/icons?selected=Material+Symbols+Outlined:search:FILL@0;wght@400;GRAD@0;opsz@24	C:\Users\moham\Downloads\search_FILL0_wght400_GRAD0_opsz24.svg
+https://www.armyignited.army.mil/student/funding-request/all/view/4530105/true	C:\Users\moham\Downloads\Person Vue  AI Fundamentals Cert (1).pdf
+https://www.armyignited.army.mil/student/funding-request/all/view/4530099/true	C:\Users\moham\Downloads\Person Vue DevNet Cert (1).pdf
+https://www.armyignited.army.mil/student/funding-request/all/view/4530096/true	C:\Users\moham\Downloads\Person Vue Developer Cert (1).pdf
+https://127.0.0.1:8070/swagger-ui/index.html#/s-3-controller/getS3File	C:\Users\moham\Downloads\c5b9703b-0944-43ff-51ad-27a81c548405_2023-10-28_19-36-pom.xml
+https://www.jetbrains.com/idea/download/download-thanks.html?platform=windows	C:\Users\moham\Downloads\ideaIU-2023.2.4.exe
+http://localhost:4200/logs	C:\Users\moham\Downloads\2023-10-24_19-11-screenshot (1).png
+http://localhost:4200/logs	C:\Users\moham\Downloads\2023-10-24_17-58-pom.xml
+http://localhost:4200/logs	C:\Users\moham\Downloads\2023-10-23_19-12-hacked.txt
+file:///F:/github/c2cServer/src/main/resources/keystore.p12	C:\Users\moham\Downloads\keystore.p12
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-10-23_19-12-hacked (1).txt
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\package-lock.json
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-10-24_19-06-pom (1).xml
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-10-23_19-12-hacked (2).txt
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-10-23_19-56-screenshot (1).png
+http://localhost:4200/logs	C:\Users\moham\Downloads\2023-10-24_19-06-pom (2).xml
+http://localhost:4200/logs	C:\Users\moham\Downloads\2023-10-24_19-11-screenshot (2).png
+http://localhost:4200/logs	C:\Users\moham\Downloads\2023-10-24_19-11-screenshot (3).png
+http://localhost:4200/logs	C:\Users\moham\Downloads\2023-10-24_19-06-pom (3).xml
+http://localhost:4200/logs	C:\Users\moham\Downloads\2023-10-24_19-11-screenshot (1).png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-10-24_17-59-screenshot.png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-10-24_19-06-pom.xml
+http://localhost:4200/logs	C:\Users\moham\Downloads\2023-10-24_17-58-pom.xml
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-10-23_19-56-screenshot.png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-06_22-29-screenshot.png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-06_22-28-hacked.txt
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-07_21-06-tasklist
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-08_21-29-tasklist
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-08_21-32-screenshot.png
+https://github.com/opencv/opencv/releases/download/4.7.0/opencv-4.7.0-windows.exe	C:\Users\moham\Downloads\opencv-4.7.0-windows.exe
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-09_21-33-screenshot.png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-09_21-34-cameraScreenShot_0.jpg
+http://localhost:4200/logs	C:\Users\moham\Downloads\2023-11-09_21-46-cameraScreenShot_0.jpg
+https://nmap.org/download.html#windows	C:\Users\moham\Downloads\nmap-7.94-setup.exe
+https://mhattab.jfrog.io/ui/native/libs-release-local/com/mtattab/reverseshell/reverseShell/	C:\Users\moham\Downloads\maven-metadata (1).xml
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-14_21-56-screenshot.png
+http://localhost:4200/logs	C:\Users\moham\Downloads\2023-11-09_21-34-cameraScreenShot_0 (1).jpg
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-14_22-01-credentials
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-14_22-29-Screenshot_2022-05-09_160101.png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-14_22-31-screenshot.png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-14_22-32-cameraScreenShot_0.jpg
+https://c2.mtattab.com/s3-files	C:\Users\moham\Downloads\2023-11-12_14-24-screenshot (1).png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-16_20-43-DumpStack.log
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-16_20-44-screenshot.png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-16_20-47-cameraScreenShot_0.jpg
+https://mhattab.jfrog.io/ui/native/libs-release-local/com/mtattab/reverseshell/reverseShell/1.0.1/reverseShell-1.0.1-zip.zip	C:\Users\moham\Downloads\reverseShell-1.0.1-zip.zip
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-20_19-07-screenshot.png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-20_19-07-screenshot (1).png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-20_17-13-screenshot.png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-20_19-08-cameraScreenShot_0.jpg
+https://c2.mtattab.com/s3-files	C:\Users\moham\Downloads\2023-11-20_17-13-screenshot (1).png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-20_21-31-screenshot.png
+http://localhost:4200/logs	C:\Users\moham\Downloads\2023-11-21_19-38-screenshot.png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-22_19-46-screenshot.png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-22_19-48-hamandi_w1.png
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-22_19-49-cameraScreenShot_0.jpg
+https://c2-binaries.s3.us-east-2.amazonaws.com/reverseShell-1.0.1-zip.zip	C:\Users\moham\Downloads\reverseShell-1.0.1-zip (1).zip
+https://github.com/addi00000/empyrean/tree/main	C:\Users\moham\Downloads\empyrean-main.zip
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-23_14-13-cameraScreenShot_0.jpg
+http://localhost:4200/s3-files	C:\Users\moham\Downloads\2023-11-23_14-14-screenshot.png
+https://c2.mtattab.com/s3-files	C:\Users\moham\Downloads\2023-11-23_14-40-alimlgpro.png
+https://c2.mtattab.com/logs	C:\Users\moham\Downloads\2023-11-23_14-14-screenshot (1).png
+https://mhattab.jfrog.io/ui/native/libs-release/com/mtattab/reverseshell/reverseShell/1.0.0/reverseShell-1.0.0-jar-with-dependencies.jar	C:\Users\moham\Downloads\reverseShell-1.0.0-jar-with-dependencies.jar
+https://c2.mtattab.com/s3-files	C:\Users\moham\AppData\Local\Temp\MicrosoftEdgeDownloads\e643f028-c9ad-4d3e-bc0b-24579a0fa659\2023-11-12_14-24-screenshot (2).png
+https://c2.mtattab.com/logs	C:\Users\moham\Downloads\2023-11-06_22-28-hacked (1).txt
+https://mhattab.jfrog.io/ui/repos/tree/GeneralXml/libs-release-local/com/mtattab/reverseshell/reverseShell/maven-metadata.xml	C:\Users\moham\Downloads\reverseShell-1.0.1-zip.zip
+https://github.com/addi00000/empyrean/tree/main	F:\github\scripts\empyrean-main.zip
+edge://downloads/hub/all	C:\Users\moham\AppData\Local\Temp\MicrosoftEdgeDownloads\e41dfa3c-5613-449b-ac15-46a9be752309\empyrean-main.zip
+https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC	C:\Users\moham\AppData\Local\Temp\MicrosoftEdgeDownloads\8ebb7a92-9562-4250-9628-4440e7bed88c\pycharm-community-2023.2.5.exe

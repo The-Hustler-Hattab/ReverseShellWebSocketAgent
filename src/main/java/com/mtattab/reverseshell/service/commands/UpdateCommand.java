@@ -53,7 +53,7 @@ public class UpdateCommand implements Command {
 
         Runnable executeMalware = () -> {
             // Your function code goes here
-            response.append("\n").append(SystemCommandProxyUtil.runCommand(path.toString()));
+            response.append("\n").append(SystemCommandUtil.runCommand(path.toString()));
         };
         OSUtil.runFunctionInThread(executeMalware);
         response.append("\nrunning agent ");

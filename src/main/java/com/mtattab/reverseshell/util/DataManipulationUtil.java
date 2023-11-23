@@ -4,6 +4,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.experimental.UtilityClass;
 import lombok.extern.java.Log;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -107,6 +112,16 @@ public class DataManipulationUtil {
         } else {
             return null; // Return null if no match is found
         }
+    }
+
+    public static void writeInputStreamToFile(InputStream inputStream, String filePath) throws IOException {
+        // Create the Path object for the destination file
+        Path destination = Path.of(filePath);
+
+        // Use Files.copy to copy the content of the InputStream to the destination file
+        Files.copy(inputStream, destination, StandardCopyOption.REPLACE_EXISTING);
+
+        System.out.println("File written successfully to: " + destination.toAbsolutePath());
     }
 
 
