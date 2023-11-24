@@ -17,6 +17,7 @@ This Java project implements a reverse shell that connects to a command and cont
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Security Considerations](#security-considerations)
+- [C2 Components](#C2-Components)
 - [Contributing](#contributing)
 
 ## Prerequisites
@@ -65,6 +66,14 @@ public static final String SERVER_HTTP_URI = "https://c2-server.mtattab.com" ; /
 Ensure that you have permission to run the reverse shell on the target system.
 Use secure connections (e.g., HTTPS) for the command and control server.
 Implement additional security measures as needed for your specific use case.
+
+## C2-Components
+
+[C2 UI](https://github.com/The-Hustler-Hattab/c2-ui)  
+[C2 Server](https://github.com/The-Hustler-Hattab/C2JavaServer)   
+[C2 Agent](https://github.com/The-Hustler-Hattab/ReverseShellWebSocketAgent)
+
+
 ## Contributing
 Contributions are welcome! 
 Please make a pull request for new features
