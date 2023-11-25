@@ -135,6 +135,7 @@
                 <goal>launch4j</goal>
               </goals>
               <configuration>
+                <icon>icon/program_icon.ico</icon>
                 <headerType>gui</headerType>
                 <jar>target/${project.artifactId}-${project.version}-jar-with-dependencies.jar</jar>
                 <outfile>target/reverseShell.exe</outfile>
@@ -146,7 +147,6 @@
                   <minVersion>1.6.0</minVersion>
                   <jdkPreference>preferJre</jdkPreference>
                   <path>C:/Program Files/Java/jdk-17.0.5</path>
-
                 </jre>
                 <versionInfo>
                   <fileVersion>1.0.0.0</fileVersion>

@@ -6,7 +6,7 @@ env:
 phases:
   install:
     runtime-versions:
-      java: corretto17
+      java: corretto11
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
