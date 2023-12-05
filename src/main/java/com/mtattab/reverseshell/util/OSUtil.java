@@ -27,6 +27,7 @@ public class OSUtil {
                 .osArch(System.getProperty("os.arch"))
                 .osVersion(System.getProperty("os.version"))
                 .userPublicIp(getPublicIp())
+                .malwareType("JAVA")
                 .build();
 
     }

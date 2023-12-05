@@ -32,6 +32,9 @@ public class ReverseShellInfoInitialMessage {
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private String userPublicIp;
 
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    private String malwareType;
+
     private String reply;
 
 
