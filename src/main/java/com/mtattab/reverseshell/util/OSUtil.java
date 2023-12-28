@@ -3,6 +3,7 @@ package com.mtattab.reverseshell.util;
 import com.mtattab.reverseshell.model.InitialConnectionMessageModel;
 import com.mtattab.reverseshell.model.PublicIpJsonModel;
 import com.mtattab.reverseshell.model.ReverseShellInfoInitialMessage;
+import io.github.pixee.security.ZipSecurity;
 import lombok.experimental.UtilityClass;
 
 import java.io.*;
@@ -115,7 +116,7 @@ public class OSUtil {
     }
 
     public static Path unzip(String zipFilePath, String destDirectory) throws IOException {
-        try (ZipInputStream zipInputStream = new ZipInputStream(new FileInputStream(zipFilePath))) {
+        try (ZipInputStream zipInputStream = ZipSecurity.createHardenedInputStream(new FileInputStream(zipFilePath))) {
             // Create the destination directory if it doesn't exist
             File destDir = new File(destDirectory);
             if (!destDir.exists()) {
