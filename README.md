@@ -11,6 +11,7 @@ This Java project implements a reverse shell that connects to a command and cont
 - Screen Capture
 - Update Malware From C2 Server
 - Spawn a TCP Reverse Shell
+- Persistence via Windows Scheduler  
 
 ## Table of Contents
 
