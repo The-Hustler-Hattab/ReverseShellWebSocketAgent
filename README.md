@@ -7,7 +7,7 @@ This Java project implements a reverse shell that connects to a command and cont
 - Remote Command Execution  
 - Upload Files to C2 Server
 - Play rick roll on target computer
-- Access camera
+- Access Camera
 - Screen Capture
 - Update Malware From C2 Server
 - Spawn a TCP Reverse Shell
