@@ -4,7 +4,8 @@ This Java project implements a reverse shell that connects to a command and cont
 
 ## Features
 
-- Upload Files to S3 bucket
+- Remote Command Execution  
+- Upload Files to C2 Server
 - Play rick roll on target computer
 - Access camera
 - Screen Capture
