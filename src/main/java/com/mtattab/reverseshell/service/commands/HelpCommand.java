@@ -66,11 +66,11 @@ public class HelpCommand implements Command {
                 .requiredParams("NA")
                 .example("powershell")
                 .build());
-        helpCommandArrayList.add(HelpCommand.builder().commandName("/harvest-secrets")
-                .description("Harvest sensitive information from current system")
-                .requiredParams("NA")
-                .example("/harvest-secrets")
-                .build());
+//        helpCommandArrayList.add(HelpCommand.builder().commandName("/harvest-secrets")
+//                .description("Harvest sensitive information from current system")
+//                .requiredParams("NA")
+//                .example("/harvest-secrets")
+//                .build());
 //        helpCommandArrayList.add(HelpCommand.builder().commandName("/power-script")
 //                .description("script name. Available scripts { pyDownload.ps1: 'download python in the system' }")
 //                .requiredParams("script name")

