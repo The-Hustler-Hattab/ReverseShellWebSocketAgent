@@ -6,7 +6,7 @@ This Java project implements a reverse shell that connects to a command and cont
 
 - Remote Command Execution  
 - Upload Files to C2 Server
-- Play rick roll on target computer
+- Play rickroll on the target computer
 - Access Camera
 - Screen Capture
 - Update Malware From C2 Server
@@ -51,8 +51,8 @@ Before you begin, ensure you have the following prerequisites:
     ```
 
 ## Usage
-The project will generate jar with dependencies and exe file.
-To use the reverse shell, run the following command:
+The project will generate a jar with dependencies and an exe file.
+To use the reverse shell, click the exe or the jar or run the following command:
 
 ```bash
 java -jar target/reverseShell-1.0.1-jar-with-dependencies.jar
