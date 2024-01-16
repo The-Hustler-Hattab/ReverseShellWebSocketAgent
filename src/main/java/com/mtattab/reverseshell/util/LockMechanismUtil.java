@@ -1,5 +1,6 @@
 package com.mtattab.reverseshell.util;
 
+import java.security.SecureRandom;
 import lombok.experimental.UtilityClass;
 
 import java.io.FileWriter;
@@ -125,7 +126,7 @@ public class LockMechanismUtil {
     }
 
     private static long generateRandomNumber() {
-        Random random = new Random();
+        Random random = new SecureRandom();
         // Generate a random 20-digit number
         return 1_000_000_000_000_000_000L + random.nextLong() % 9_000_000_000_000_000_000L;
     }
